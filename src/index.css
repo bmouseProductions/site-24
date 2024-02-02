@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #F4F4F4;
+}
+
+html, body{
+    background-color: #0F182D;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: delligual;
+    src: url(./assets/fonts/dellingual-webfont.woff2);
+}
+
+
+@media (min-width:1024px) {
+    .font-tittle{
+        font-family: delligual;
+        font-size: 100px;
+        text-transform: uppercase;
+        line-height: 100%;
+    }
+}
+
+@media (min-width:1440px) {
+    .font-tittle{
+        font-family: delligual;
+        font-size: 150px;
+        text-transform: uppercase;
+        line-height: 100%;
+    }
+}
+
+.bg-section-one {
+    background: url(./assets/images/bg-section-1.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+  
+.bg-header-section {
+    background: url(./assets/images/header-section-1.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+  
+.bg-agromouse {
+    background: url(./assets/images/agromouse.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+  
+.bg-story {
+    background: url(./assets/images/story.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+  
+.efeito-vidro {
+    border-radius: 29px;
+    background: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(7.5px);
+}
+  
+hr {
+    background: radial-gradient(
+      947.41% 35.45% at 53.65% 49.76%,
+      #164671 0%,
+      #5e04f0 58%,
+      #4e24f2 66%,
+      #2775f8 82%,
+      #00c8ff 98%
+    );
+    height: 2px; /* Defina a altura da linha */
+    border: none; /* Remova a borda padrão se necessário */
+}
+
+.slick-prev, .slick-next, .slick-dots{
+    display: none !important;
+}
