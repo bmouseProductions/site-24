@@ -1,6 +1,8 @@
+
+
 import foguete from '../../../../assets/images/foguete.png'
 
-export default function SectionSix(){
+export default function SectionFive(){
     return (
         <section className='my-20 mb-[250px] relative container px-5 lg:px-10 xl:px-20 mx-auto'>
             <div className=" max-w-[1238px] w-full mx-auto h-[350px] lg:h-[400px] flex rounded-[45px] bg-[#6000f8] ">

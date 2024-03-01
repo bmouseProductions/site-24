@@ -22,7 +22,7 @@ import aligner from "../../../../assets/images/logos-clientes/newaligner.svg";
 import salus from "../../../../assets/images/logos-clientes/salus.svg";
 import amo from "../../../../assets/images/logos-clientes/amovacinas.svg";
 import agro from "../../../../assets/images/logos-clientes/agroecologia.svg";
-import SliderImagem from "../../../../components/slider/SliderClientes";
+import SliderImagem from "../../../../components/sliders/SliderClientes";
 
 
 
@@ -60,8 +60,8 @@ export default function SectionFive(){
     const slideCount = slideContent.length;
     return (
         
-        <section className="mb-[200px] ">
-            <h1 className="mb-10 font-tittle lg:!text-[250px] xl:!text-[300px] text-center">
+        <section className="mb-[200px] max-w-screen ">
+            <h1 className="mb-10 font-tittle lg:!text-[200px]  text-center">
                 nossos clientes
             </h1>
 

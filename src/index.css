@@ -2,11 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: delligual;
+    src: url(./assets/fonts/dellingual-webfont.woff2);
+}
+
+@font-face {
+    font-family: meutas-light;
+    src: url(./assets/fonts/Meutas-Light.otf);
+}
+
+@font-face {
+    font-family: meutas-medium;
+    src: url(./assets/fonts/Meutas-Medium.otf);
+}
+
+@font-face {
+    font-family: montserrat-semibold;
+    src: url(./assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+h2{
+    font-family: meutas-medium;
+}
+
+.font-montserrat{
+    font-family: montserrat-semibold;
+}
+
+.font-meutas-medium{
+    font-family: meutas-medium;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #F4F4F4;
+    font-family: meutas-light;
+    font-weight: 300;
 }
 
 html, body{
@@ -16,11 +50,12 @@ html, body{
     box-sizing: border-box;
 }
 
-@font-face {
+.font-tittle{
     font-family: delligual;
-    src: url(./assets/fonts/dellingual-webfont.woff2);
+    font-size: 100px;
+    text-transform: uppercase;
+    line-height: 100%;
 }
-
 
 @media (min-width:1024px) {
     .font-tittle{
@@ -41,43 +76,127 @@ html, body{
 }
 
 .bg-section-one {
-    background: url(./assets/images/bg-section-1.svg);
+    background: url(./assets/images/backgrounds/bg-section-1.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    max-width: 1800px;
+}
+
+@media (min-width:768px) {
+    .bg-section-one2 {
+        background: url(./assets/images/backgrounds/bg-section-1.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+    }
+}
+
+.bg-section-two {
+    background: url(./assets/images/backgrounds/testee.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70% 100%;
+}
+
+.bg-blur-left {
+    background: url(./assets/images/backgrounds/bg-blur-left.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 50% 100%;
+}
+
+.bg-blur-top {
+    background: url(./assets/images/backgrounds/blur-top.webp);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+
+@media (min-width:1024px) {
+    .bg-sobre{
+        background: url(./assets/images/backgrounds/bg-sobre.webp);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 60%;
+    }
+}
+
+@media (min-width:1540px) {
+    .bg-sobre{
+        background: url(./assets/images/backgrounds/bg-sobre.webp);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 850px;
+    }
+}
+
+@media (min-width:1540px) {
+    .bg-sobre{
+        background: url(./assets/images/backgrounds/bg-sobre.webp);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 850px;
+    }
 }
   
 .bg-header-section {
-    background: url(./assets/images/header-section-1.svg);
+    background: url(./assets/images/Home/header-section-1.svg);
     background-repeat: no-repeat;
     background-position: top;
     height: 400px;
     width: 100%;
     background-size: cover;
 }
-  
-.bg-agromouse {
-    background: url(./assets/images/agromouse.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
+
+@media (min-width:768px) {
+
+    .bg-agromouse {
+        background: url(./assets/images/Home/agromouse.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .bg-story {
+        background: url(./assets/images/Home/story.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+
 }
   
-.bg-story {
-    background: url(./assets/images/story.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-}
+
   
 .efeito-vidro {
     border-radius: 29px;
     background: rgba(0, 0, 0, 0.24);
     backdrop-filter: blur(7.5px);
+}
+
+.shadow-botao{
+    box-shadow: 0 0 30px 3px #760bff;
+}
+
+.shadow-botao2:hover{
+    box-shadow: 0 0 50px 10px #760bff;
+}
+
+.shadow-card:hover{
+    box-shadow: 0 0 80px 30px #760bff;
+}
+
+.shadow-card img{
+    scale: 1.25;
+}
+
+.shadow-card:hover img{
+    scale: 1;
 }
   
 hr {
@@ -95,4 +214,16 @@ hr {
 
 .slick-prev, .slick-next, .slick-dots{
     display: none !important;
+}
+
+.iluminado:hover {
+    background: radial-gradient(circle , rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 60%);
+    translate: y -100px;
+    transition: all 300ms ease-out;
+}
+
+.card-empresa:hover .button-card,.card-empresa:hover .button-card svg path{
+    background-color: #fff !important;
+    color: #000 !important;
+    
 }

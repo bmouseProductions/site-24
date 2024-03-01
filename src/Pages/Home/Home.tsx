@@ -11,19 +11,17 @@ import SectionSix from "./sections/SectionSix/SectionSix";
 export default function Home(){
     return (
         <>
-            <div className="mt-10 flex flex-col gap-20 lg:mb-[100px] xl:mb-[250px] ">
+            
                 <SectionOne/>
-                <img src={Border} alt="" className="container lg:px-10 xl:px-20 mx-auto w-[10%]" />
+                <img src={Border} alt="" className="container lg:px-10 xl:px-20 mx-auto w-[100%] my-20" />
                 <SectionTwo/>
-                <img src={Border} alt="" className="container lg:px-10 xl:px-20 mx-auto w-[100%]" />
+                <img src={Border} alt="" className="container lg:px-10 xl:px-20 mx-auto w-[100%] my-20" />
                 <SectionThree/>
-                <img src={Border} alt="" className="container lg:px-10 xl:px-20 mx-auto w-[100%]" />
+                <img src={Border} alt="" className="container lg:px-10 xl:px-20 mx-auto w-[100%] my-20" />
                 <SectionFour/>
-                <img src={Border} alt="" className="container lg:px-10 xl:px-20 mx-auto w-[100%]" />
+                <img src={Border} alt="" className="container lg:px-10 xl:px-20 mx-auto w-[100%] my-20" />
                 <SectionFive />
                 <SectionSix />
-            </div>
-
         </>
     )
 }

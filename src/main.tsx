@@ -9,17 +9,16 @@ import ErrorPage from './Pages/Error/ErrorPage';
 import Home from './Pages/Home/Home';
 import Footer from './components/Footer/Footer';
 import BackToTop from './components/BackToTop/BackToTop';
-import Header from './components/Header/Header';
+import Services from './Pages/Services/Service';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Router>
-      <Header/>
       <main className=''>
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/sobre" element={<About />} />
-          <Route path="/servicos" element={<About />} />
+          <Route path="/servicos" element={<Services />} />
           <Route path="/fale-conosco" element={<About />} />
           <Route path="/*" element={<ErrorPage />} />
         </Routes>

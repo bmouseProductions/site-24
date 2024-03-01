@@ -1,11 +1,18 @@
+import { SectionOne } from "./Sections/SectionOne/SectionOneAbout";
+import SectionTwo from "./Sections/SectionTwo/SectionTwoAbout";
+import SectionThree from "./Sections/SectionThree/SectionThreeAbout";
+import SectionFour from "./Sections/SectionFour/SectionFourAbout";
+import SectionFive from "./Sections/SectionFive/SectionFiveAbout";
 
 
 export default function About(){
     return (
         <>
-            <h1 className="text-7xl text-pink-700 ">
-                pagina about
-            </h1>
+            <SectionOne />
+            <SectionTwo />
+            <SectionThree />
+            <SectionFour />
+            <SectionFive />
         </>
     )
 }
