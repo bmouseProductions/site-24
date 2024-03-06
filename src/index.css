@@ -48,6 +48,20 @@ html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/*ESTILIZAÇÃO SCROLL-BAR */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    border-radius: 8px;
+    background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+background: #00c8ff;
+border-radius: 8px;
 }
 
 .font-tittle{
@@ -55,6 +69,22 @@ html, body{
     font-size: 100px;
     text-transform: uppercase;
     line-height: 100%;
+}
+
+.font-tittle2{
+    font-family: delligual;
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+@media (min-width:768px) {
+    .font-tittle2{
+        font-family: delligual;
+        font-size: 100px;
+        text-transform: uppercase;
+        line-height: 100%;
+    }
 }
 
 @media (min-width:1024px) {
@@ -103,7 +133,16 @@ html, body{
     background: url(./assets/images/backgrounds/bg-blur-left.png);
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 50% 100%;
+    background-size: 100%;
+}
+
+@media (min-width:768px){
+    .bg-blur-left {
+        background: url(./assets/images/backgrounds/bg-blur-left.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 50% 100%;
+    }
 }
 
 .bg-blur-top {
@@ -149,23 +188,26 @@ html, body{
     background-size: cover;
 }
 
-@media (min-width:768px) {
+.bg-agromouse, .bg-story{
+    background-color: #0000008e;
+    padding-bottom: 15px;
+}
+
+@media (min-width:1024px) {
 
     .bg-agromouse {
-        background: url(./assets/images/Home/agromouse.svg);
+        padding-bottom: 0px;
+        background: url(./assets/images/Home/agromouse.webp);
         background-repeat: no-repeat;
         background-position: center center;
-        height: 100%;
-        width: 100%;
         background-size: cover;
     }
 
     .bg-story {
-        background: url(./assets/images/Home/story.svg);
+        padding-bottom: 0px;
+        background: url(./assets/images/Home/story.webp);
         background-repeat: no-repeat;
-        background-position: top;
-        height: 100%;
-        width: 100%;
+        background-position: center center;
         background-size: cover;
     }
 
@@ -179,8 +221,10 @@ html, body{
     backdrop-filter: blur(7.5px);
 }
 
-.shadow-botao{
-    box-shadow: 0 0 30px 3px #760bff;
+@media (min-width:768px) {
+    .shadow-botao{
+        box-shadow: 0 0 30px 3px #760bff;
+    }
 }
 
 .shadow-botao2:hover{
@@ -216,11 +260,16 @@ hr {
     display: none !important;
 }
 
-.iluminado:hover {
-    background: radial-gradient(circle , rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 60%);
-    translate: y -100px;
-    transition: all 300ms ease-out;
+.iluminado {
+    background: transparent;
+    transition: all 300ms linear;
 }
+
+.iluminado:hover {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 60%);
+    transform: translateY(-100px);
+}
+
 
 .card-empresa:hover .button-card,.card-empresa:hover .button-card svg path{
     background-color: #fff !important;

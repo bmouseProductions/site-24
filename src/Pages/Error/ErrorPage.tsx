@@ -1,10 +1,15 @@
 import Lottie from 'react-lottie-player'
 import error404 from '../../assets/animations/error404.json'
 import { Link } from 'react-router-dom'
+import Header from '../../components/Header/Header'
 
 export default function ErrorPage(){
     return (
-        <section className='py-[200px] z-0'>
+        <section className='pt-[50px] pb-[200px] z-0'>
+            <div className='relative z-50 '>
+                <Header />
+            </div>
+            
             <div className="max-w-[1276px] max-h-[500px] md:max-h-[300px] mt-5 md:mt-20 mx-auto px-5 xl:px-0 flex flex-col md:flex-row text-black relative">
                 <div className='w-full md:w-1/3  flex flex-col'>
                     <h1 className='text-7xl font-semibold text-[#dc2626] '>OOPS!</h1>

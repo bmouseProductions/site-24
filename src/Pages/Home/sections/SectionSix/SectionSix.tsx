@@ -21,7 +21,7 @@ export default function SectionSix(){
                 <img 
                     src={foguete} 
                     alt="" 
-                    className='iluminado hidden md:block md:w-[350px] lg:w-[450px] absolute md:left-[50%] lg:left-[48%] xl:left-[50%] top-0 hover:scale-125 hover:translate-y-[-100px] transition-all '
+                    className='iluminado hidden md:block md:w-[350px] lg:w-[450px] absolute md:left-[50%] lg:left-[48%] xl:left-[50%] top-0 hover:scale-125 hover:translate-y-[-100px] '
                 />
             </div>
         </section>

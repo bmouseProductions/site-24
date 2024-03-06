@@ -6,6 +6,15 @@ import "slick-carousel/slick/slick-theme.css";
 
 import naia from '../../assets/images/colaboradores/naia.webp'
 import joyce from '../../assets/images/colaboradores/joyce.webp'
+import bruno from '../../assets/images/colaboradores/bruno.webp'
+import leo from '../../assets/images/colaboradores/leo.webp'
+import matheus from '../../assets/images/colaboradores/matheus.webp'
+import melissa from '../../assets/images/colaboradores/melissa.webp'
+import nalberthy from '../../assets/images/colaboradores/nalberthy.webp'
+import rafael from '../../assets/images/colaboradores/rafael.webp'
+import raissa from '../../assets/images/colaboradores/raissa.webp'
+import ricardo from '../../assets/images/colaboradores/ricardo.webp'
+import veras from '../../assets/images/colaboradores/veras.webp'
 
 export default function SliderColaborador() {
     const settings = {
@@ -15,8 +24,8 @@ export default function SliderColaborador() {
         slidesToShow: 5,
         slidesToScroll: 1,
         initialSlide: 0,
-        autoplay: false,
-        autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 1500,
         responsive: [
             {
                 breakpoint: 1280,
@@ -50,6 +59,12 @@ export default function SliderColaborador() {
     };
 
     const colaboradores = [
+
+        {
+            nome: "Joyce",
+            setor: "Designer",
+            imagem: joyce
+        },
         {
             nome: "Naiá",
             setor: "Redator",
@@ -57,39 +72,51 @@ export default function SliderColaborador() {
         },
 
         {
-            nome: "Joyce",
+            nome: "Bruno",
             setor: "Designer",
-            imagem: joyce
+            imagem: bruno
+        },
+        {
+            nome: "Leo",
+            setor: "Redator",
+            imagem: leo
+        },
+
+        {
+            nome: "matheus",
+            setor: "Designer",
+            imagem: matheus
         },{
-            nome: "Naiá",
+            nome: "melissa",
             setor: "Redator",
-            imagem: naia
+            imagem: melissa
         },
 
         {
-            nome: "Joyce",
+            nome: "nalberthy",
             setor: "Designer",
-            imagem: joyce
-        },{
-            nome: "Naiá",
+            imagem: nalberthy
+        },
+        {
+            nome: "rafael",
             setor: "Redator",
-            imagem: naia
+            imagem: rafael
         },
 
         {
-            nome: "Joyce",
+            nome: "raissa",
             setor: "Designer",
-            imagem: joyce
-        },{
-            nome: "Naiá",
-            setor: "Redator",
-            imagem: naia
+            imagem: raissa
         },
-
         {
-            nome: "Joyce",
-            setor: "Designer",
-            imagem: joyce
+            nome: "ricardo",
+            setor: "Redator",
+            imagem: ricardo
+        },
+        {
+            nome: "Veras",
+            setor: "Redator",
+            imagem: veras
         },
     ]
 
@@ -97,7 +124,7 @@ export default function SliderColaborador() {
             <Slider {...settings} className="">
                 {colaboradores.map((colaborador, index) => (
                     <div key={index} className=" !flex justify-center text-white">
-                        <img src={colaborador.imagem} className="md:max-h-[300px] " alt="" />
+                        <img src={colaborador.imagem} className="md:max-h-[300px] rounded-[30px] " alt="" />
                     </div>
                 ))}
             

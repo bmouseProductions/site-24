@@ -9,14 +9,17 @@ import ModalContact from "../ModalContact/ModalContact";
  
 function NavList() {
   return (
-    <ul className="pt-5 flex flex-col md:flex-row md:items-center gap-5 lg:gap-[27px] ">
+    <ul className="pt-5  flex flex-col md:flex-row md:items-center gap-5 lg:gap-[27px] ">
       <NavLink to="/sobre" className="text-lg md:text-xl !font-montserrat cursor-pointer">
           Sobre
       </NavLink>
 
-      <NavLink to="/nossos-trabalhos" className="text-lg md:text-xl !font-montserrat cursor-pointer">
+      <a 
+        href="https://bmouseproductions.com/view/atendimento/nossos-trabalhos/"
+        className="text-lg md:text-xl !font-montserrat cursor-pointer"
+      >
           Nossos trabalhos
-      </NavLink>
+      </a>
 
       <NavLink to="/servicos" className="text-lg md:text-xl !font-montserrat cursor-pointer">
           Serviços
@@ -53,7 +56,16 @@ export default function Header() {
             className="md:hidden"
             onClick={() => setOpenNav(!openNav)}
         >
-            abrir menu
+          { openNav ? 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+            : 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+          }
         </button>
 
         

@@ -7,7 +7,7 @@ export default function SectionTwo(){
         <section className="py-20 container mx-auto bg-blur-left ">
             <div className='lg:mt-20 flex flex-col md:flex-row justify-center lg:gap-10'>
                 <img className='max-h-[400px] lg:max-h-[600px] xl:max-h-[800px] ' src={camera} alt="" />
-                <div className='flex flex-col gap-5 pr-5 lg:pr-10 xl:pr-20'>
+                <div className='mt-10 md:pr-5 lg:pr-10 xl:pr-20 flex flex-col gap-5 '>
                     <img src={logo} alt="" className='mx-auto max-w-[300px] md:max-w-[250px] lg:max-w-[300px]' />
                     <img src={border} className=' ' alt="" />
                     <div className='w-[90%] mx-auto flex flex-col gap-5'>

@@ -1,18 +1,27 @@
-import Image from "../../../../assets/images/Home/SectionThree/image.svg";
+import { NavLink } from "react-router-dom";
+import { Botao } from "../../../../components/BotaoEscuro/Botao";
+import SliderHome from "../../../../components/sliders/SliderHome";
 
 
 export const SectionThree = () => {
   return (
     <section className=" bg-section-one2 bg-contain mx-auto  flex items-center lg:!bg-400 xl:!bg-600 ">
       <div className=" container px-5 lg:px-10 xl:px-20 mx-auto flex flex-col md:flex-row gap-10 justify-between ">
-        <div className="w-full flex items-center">
-          <img src={Image} alt="" className="rotate-180 w-full lg:w-[80%] " />
+        <div className="relative mb-10 w-full flex justify-center md:items-end ">
+          <SliderHome />
+          <div className="absolute bottom-0 mb-[-40px] w-full max-w-[200px] ">
+            <NavLink to='/sobre' >
+              <Botao tipo="tipo2" text="Saiba Mais"></Botao>
+            </NavLink>
+            
+          </div>
         </div>
+          
         <div className="text-white flex flex-col gap-5 xl:gap-10 md:max-w-[50%] ">
           <div className=" py-2 px-3 max-w-[130px] xl:max-w-[180px] xl:text-xl text-center uppercase rounded-3xl border-2 border-white">
             <h3>Sobre nós</h3>
           </div>
-          <h1 className="font-tittle xl:text-[150px] ">
+          <h1 className="font-tittle text xl:text-[150px] ">
             Somos especialistas!
           </h1>
           <div className="flex flex-col  gap-5">

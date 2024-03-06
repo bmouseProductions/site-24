@@ -22,6 +22,7 @@ export default function Home(){
                 <img src={Border} alt="" className="container lg:px-10 xl:px-20 mx-auto w-[100%] my-20" />
                 <SectionFive />
                 <SectionSix />
+                
         </>
     )
 }

@@ -80,14 +80,13 @@ export const SectionFour = () => {
                     <p>{item.text}</p>
                   </div>
                   <div>
-                    <a
-                      href=""
+                    <div
                       className="!h-[50px] flex items-center justify-center !w-[50px] rounded-full border border-white button-card transition-all"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 !text-black">
                         <path strokeLinecap="round" className='' strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                       </svg>
-                    </a>
+                    </div>
                   </div>
                 </div> 
               </a>

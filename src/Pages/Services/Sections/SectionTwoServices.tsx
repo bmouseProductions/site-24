@@ -18,51 +18,51 @@ export default function SectionTwo(){
           img: branding,
           title: "BRANDING",
           text: "A sua marca merece um visual impactante e de respeito.",
-          link: ''
+          link: '/servicos/branding'
         },
         {
           img: marketing,
           title: "MARKETING",
           text: "Transforme a direção do seu negócio com um marketing estratégico.",
-          link: ''
+          link: '/servicos/marketing'
         },
         {
           img: endomarketing,
           title: "ENDOMARKETING",
           text: "Melhore a comunicação interna da sua empresa e a sinergia dos colaboradores.",
-          link: ''
+          link: '/servicos/endomarketing'
         },
         {
           img: audiovisual,
           title: "AUDIOVISUAL",
           text: "Transforme suas ideias em verdadeiras obras de arte.",
-          link: ''
+          link: '/servicos/audiovisual'
         },
         {
           img: ads,
           title: "ADS",
           text: "Impulsione a sua marca e alcance mais clientes e contatos.",
-          link: ''
+          link: '/servicos/ads'
         },
         {
           img: programacao,
           title: "PROGRAMAÇÃO",
           text: "Automatize seus processos e cria uma presença virtual de respeito.",
-          link: ''
+          link: '/servicos/programacao'
         },
         {
             img: acessoria,
             title: "ASSESSORIA",
             text: "Tenha a representação e opinião de especialistas.",
-            link: ''
+            link: '/servicos/acessoria'
           },
           {
             img: midia,
             title: "GRANDE MÍDIA",
             text: "Leve seu projeto às grandes mídias com a nossa ajuda.",
-            link: ''
+            link: '/servicos/midia'
           },
-      ];
+    ];
     return (
         <>
             <section className="container px-5 md:px-10 lg:px-10 xl:px-20 mb-32 mx-auto">
