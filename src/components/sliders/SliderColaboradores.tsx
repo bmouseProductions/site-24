@@ -15,6 +15,9 @@ import rafael from '../../assets/images/colaboradores/rafael.webp'
 import raissa from '../../assets/images/colaboradores/raissa.webp'
 import ricardo from '../../assets/images/colaboradores/ricardo.webp'
 import veras from '../../assets/images/colaboradores/veras.webp'
+import jenifer from '../../assets/images/colaboradores/jenifer.webp'
+import tom from '../../assets/images/colaboradores/tom.webp'
+import roberta from '../../assets/images/colaboradores/roberta.webp'
 
 export default function SliderColaborador() {
     const settings = {
@@ -117,6 +120,21 @@ export default function SliderColaborador() {
             nome: "Veras",
             setor: "Redator",
             imagem: veras
+        },
+        {
+            nome: "Jenifer",
+            setor: "Redator",
+            imagem: jenifer
+        },
+        {
+            nome: "Tom",
+            setor: "Redator",
+            imagem: tom
+        },
+        {
+            nome: "Roberta",
+            setor: "Redator",
+            imagem: roberta
         },
     ]
 
