@@ -1,5 +1,5 @@
 import Header from "../../../../../../components/Header/Header";
-import cameraUrsa from "../../../../../../assets/images/Services/cameraUrsa.webp"
+import banner from "../../../../../../assets/images/Services/SubPages/Marketing/banner-marketing.webp"
 
 
 export default function SectionOne(){
@@ -8,7 +8,7 @@ export default function SectionOne(){
             <Header />
             <div className=" flex flex-col-reverse md:flex-row justify-center gap-5 lg:gap-10">
                 <div>
-                    <img src={cameraUrsa} alt="" className="w-full " />
+                    <img src={banner} alt="" className="w-full " />
                 </div>
                 <div className="px-5 flex flex-col md:max-w-[300px] lg:max-w-[600px] ">
                     <h1 className="font-tittle !text-[130px] md:!text-[120px] lg:!text-[200px]">
@@ -16,7 +16,7 @@ export default function SectionOne(){
                     </h1>
                     <p className="md:pr-5">
                     A internet: a mais cobiçada esfera de comunicação atual, onde todos vislumbram causar impacto.
-O mundo gira em torno dos smartphones, que se tornaram grandes ferramentas e proporcionam oportunidades gigantescas de crescimento para qualquer negócio. Somos especialistas em transformar os seus objetivos, sonhos e desejos em realidade através desse universo que desbravaremos juntos. 
+                    O mundo gira em torno dos smartphones, que se tornaram grandes ferramentas e proporcionam oportunidades gigantescas de crescimento para qualquer negócio. Somos especialistas em transformar os seus objetivos, sonhos e desejos em realidade através desse universo que desbravaremos juntos. 
                     </p>
                 </div>
             </div>

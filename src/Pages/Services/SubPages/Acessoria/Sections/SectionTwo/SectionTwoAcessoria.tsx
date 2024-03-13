@@ -1,14 +1,23 @@
-import camera from '../../../../../../assets/images/About/camera.webp'
-import logo from '../../../../../../assets/images/logos/logo-colorida.svg'
+import acessoria from '../../../../../../assets/images/Services/SubPages/Acessoria/acessoria.webp'
 import border from '../../../../../../assets/images/border.svg'
 
 export default function SectionTwo(){
     return (
-        <section className=" container mx-auto bg-blur-left !bg-bottom md:!bg-left">
-            <div className='mt-20 flex flex-col-reverse md:flex-row justify-center lg:gap-10'>
-                <img className='max-h-[400px] lg:max-h-[600px] xl:max-h-[800px] ' src={camera} alt="" />
-                <div className='mt-10 md:pr-5 lg:pr-10 xl:pr-20 flex flex-col gap-5 '>
-                    <img src={logo} alt="" className='mx-auto max-w-[300px] md:max-w-[250px] lg:max-w-[300px]' />
+        <section className=" bg-blur-left !bg-bottom md:!bg-left">
+            <div className=' container mx-auto mt-20 flex flex-col-reverse md:flex-row justify-center lg:gap-10'>
+                <div className='w-full flex justify-center'>
+                    <img className='max-h-[400px] lg:max-h-[600px] xl:max-h-[800px] ' src={acessoria} alt="" />
+                </div>
+                
+                <div className='w-full mt-10 md:pr-5 lg:pr-10 xl:pr-20 flex flex-col gap-5 '>
+                    <div className="ml-5 md:ml-0 mb-5 py-2 px-3 max-w-[180px] lg:max-w-[180px] xl:max-w-[220px]  text-center uppercase rounded-3xl border-2 border-white">
+                        <h3>o que fazemos</h3>
+                    </div>
+                    
+                    <h1 className='font-tittle lg:!text-[120px] xl:!text-[100px] 2xl:!text-[150px] text-center lg:text-start'>
+                        posicionamento
+                    </h1>
+
                     <img src={border} className=' ' alt="" />
                     <div className='w-[90%] mx-auto flex flex-col gap-5 mb-10'>
                         <ul className='pl-5 list-disc'>

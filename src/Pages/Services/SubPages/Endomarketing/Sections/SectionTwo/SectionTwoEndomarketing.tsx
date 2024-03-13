@@ -1,14 +1,22 @@
-import camera from '../../../../../../assets/images/About/camera.webp'
-import logo from '../../../../../../assets/images/logos/logo-colorida.svg'
+import endomarketing from '../../../../../../assets/images/Services/SubPages/Endomarketing/endomarketing.webp'
 import border from '../../../../../../assets/images/border.svg'
 
 export default function SectionTwo(){
     return (
-        <section className=" container mx-auto bg-blur-left !bg-bottom md:!bg-left">
-            <div className='mt-20 flex flex-col-reverse md:flex-row justify-center lg:gap-10'>
-                <img className='max-h-[400px] lg:max-h-[600px] xl:max-h-[800px] ' src={camera} alt="" />
-                <div className='mt-10 md:pr-5 lg:pr-10 xl:pr-20 flex flex-col gap-5 '>
-                    <img src={logo} alt="" className='mx-auto max-w-[300px] md:max-w-[250px] lg:max-w-[300px]' />
+        <section className="  bg-blur-left !bg-bottom md:!bg-left">
+            <div className='container mx-auto mt-20 flex flex-col-reverse md:flex-row justify-center lg:gap-10'>
+                <div className='w-full lg:w-2/3 flex justify-center'>
+                    <img className='max-h-[400px] lg:max-h-[600px] xl:max-h-[800px] ' src={endomarketing} alt="" />
+                </div>
+                <div className='w-full lg:w-2/3 mt-10 lg:pr-10 flex flex-col gap-5 '>
+                    <div className="ml-5 md:ml-0 mb-5 py-2 px-3 max-w-[180px] lg:max-w-[180px] xl:max-w-[220px]  text-center uppercase rounded-3xl border-2 border-white">
+                        <h3>o que fazemos</h3>
+                    </div>
+                    
+                    <h1 className='font-tittle !text-[120px] lg:!text-[110px] xl:!text-[130px] 2xl:!text-[170px] text-center lg:text-start'>
+                        Dinâmico e Inclusivo
+                    </h1>
+                        
                     <img src={border} className=' ' alt="" />
                     <div className='w-[90%] mx-auto flex flex-col gap-5 mb-10'>
                         <p className='md:text-sm lg:text-base'>

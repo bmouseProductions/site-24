@@ -1,6 +1,6 @@
 import Header from "../../../../../../components/Header/Header";
-import cameraUrsa from "../../../../../../assets/images/Services/cameraUrsa.webp"
-import title from '../../../../../../assets/images/Services/title-programação.webp'
+import banner from "../../../../../../assets/images/Services/SubPages/Programação/banner-programação.webp"
+import title from '../../../../../../assets/images/Services/SubPages/Programação/title-programação-icon.webp'
 
 
 export default function SectionOne(){
@@ -9,7 +9,7 @@ export default function SectionOne(){
             <Header />
             <div className=" flex flex-col-reverse md:flex-row justify-center gap-5 lg:gap-10">
                 <div>
-                    <img src={cameraUrsa} alt="" className="w-full" />
+                    <img src={banner} alt="" className="w-full" />
                 </div>
                 <div className="px-5 flex flex-col md:max-w-[300px] lg:max-w-[600px] ">
                     <img src={title} alt="" className="mb-5" />

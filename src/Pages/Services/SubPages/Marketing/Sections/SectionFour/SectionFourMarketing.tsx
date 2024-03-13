@@ -1,6 +1,6 @@
-import img1 from '../../../../../../assets/images/Services/img1.webp'
-import img2 from '../../../../../../assets/images/Services/img2.webp'
-import img3 from '../../../../../../assets/images/Services/img3.webp'
+import img1 from '../../../../../../assets/images/Services/SubPages/Audiovisual/img1.webp'
+import img2 from '../../../../../../assets/images/Services/SubPages/Audiovisual/img2.webp'
+import img3 from '../../../../../../assets/images/Services/SubPages/Audiovisual/img3.webp'
 
 export default function SectionFour(){
     return (

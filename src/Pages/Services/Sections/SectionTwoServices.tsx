@@ -1,11 +1,11 @@
-import branding from "../../../assets/images/Services/branding.webp";
-import marketing from "../../../assets/images/Services/marketing.webp";
-import endomarketing from "../../../assets/images/Services/endomarketing.webp";
-import audiovisual from "../../../assets/images/Services/audiovisual.webp";
-import ads from "../../../assets/images/Services/ads.webp";
-import programacao from "../../../assets/images/Services/programacao.webp";
-import acessoria from "../../../assets/images/Services/acessoria.webp";
-import midia from "../../../assets/images/Services/midia.webp";
+import branding from "../../../assets/images/Services/SubPages/Brading/branding-icon.webp";
+import marketing from "../../../assets/images/Services/SubPages/marketing/marketing-icon.webp";
+import endomarketing from "../../../assets/images/Services/SubPages/endomarketing/endomarketing-icon.webp";
+import audiovisual from "../../../assets/images/Services/SubPages/audiovisual/audiovisual-icon.webp";
+import ads from "../../../assets/images/Services/SubPages/ads/ads-icon.webp";
+import programacao from "../../../assets/images/Services/SubPages/Programação/programacao-icon.webp";
+import acessoria from "../../../assets/images/Services/SubPages/acessoria/acessoria-icon.webp";
+import midia from "../../../assets/images/Services/SubPages/midia/midia-icon.webp";
 
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
