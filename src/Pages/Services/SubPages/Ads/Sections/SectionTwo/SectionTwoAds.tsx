@@ -3,8 +3,8 @@ import border from '../../../../../../assets/images/border.svg'
 
 export default function SectionTwo(){
     return (
-        <section className=" container mx-auto bg-blur-left !bg-bottom md:!bg-left">
-            <div className='mt-20 flex flex-col-reverse md:flex-row justify-center xl:gap-10'>
+        <section className="  bg-blur-left !bg-bottom md:!bg-left">
+            <div className='container mx-auto mt-20 flex flex-col-reverse md:flex-row justify-center xl:gap-10'>
                 <div className='w-full flex justify-center'>
                     <img className='max-h-[350px] md:max-h-[600px] xl:max-h-[800px] ' src={banner} alt="" />
                 </div>

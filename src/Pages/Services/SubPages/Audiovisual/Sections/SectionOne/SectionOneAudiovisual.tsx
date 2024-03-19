@@ -15,7 +15,7 @@ export default function SectionOne(){
                         Audiovisual
                     </h1>
                     <p className="md:pr-5">
-                        non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt ullamco est sit aliquaAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt ullamco est sit aliquaAmet minim mollit non 
+                    Uma história, muitas vezes, é melhor contada em formato de imagens. Um vídeo, então, tem o potencial ainda maior de atingir pessoas, transmitir mensagens e engajar o público-alvo para determinados objetivos. Por isso, não nos cansamos de investir na nossa capacidade criativa e técnica de aprimoramento desse setor.
                     </p>
                 </div>
             </div>

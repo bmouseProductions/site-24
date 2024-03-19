@@ -1,5 +1,5 @@
 import Header from "../../../../../../components/Header/Header";
-import banner from "../../../../../../assets/images/Services/SubPages/Audiovisual/cameraUrsa-icon.webp"
+import banner from "../../../../../../assets/images/Services/SubPages/Branding/banner-brading.webp"
 
 
 export default function SectionOne(){

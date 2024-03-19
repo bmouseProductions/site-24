@@ -1,4 +1,4 @@
-import branding from "../../../assets/images/Services/SubPages/Brading/branding-icon.webp";
+import branding from "../../../assets/images/Services/SubPages/Branding/branding-icon.webp";
 import marketing from "../../../assets/images/Services/SubPages/marketing/marketing-icon.webp";
 import endomarketing from "../../../assets/images/Services/SubPages/endomarketing/endomarketing-icon.webp";
 import audiovisual from "../../../assets/images/Services/SubPages/audiovisual/audiovisual-icon.webp";

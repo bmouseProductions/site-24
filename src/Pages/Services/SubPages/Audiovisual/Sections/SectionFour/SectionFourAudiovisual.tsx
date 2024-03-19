@@ -8,22 +8,19 @@ export default function SectionFour(){
             <div className='container px-5 lg:px-10 xl:px-20 mx-auto'>
                 <div className="flex flex-col lg:flex-row gap-10 xl:gap-20">
                     <h1 className="font-tittle !text-[90px] md:!text-[130px] ">
-                        nossa capacidade produtiva
+                        Nossa capacidade produtiva
                     </h1>
                     <div className="xl:mb-10 flex flex-col justify-end gap-5 lg:gap-10">
                         <p>
-                            non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt 
-                            ullamco est sit aliquaAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet 
-                            minim. Amet minim mollit non deserunt ullamco est sit aliquaAmet minim mollit non non deserunt ullamco est sit aliqua 
-                            dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt ullamco est sit aliquaAmet minim mollit 
-                            non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt 
-                            ullamco est sit aliquaAmet minim mollit non non deserunt ullamco est sit aliqua dolor do amet sint. 
+                            A BMouse trabalha a todo vapor para entregar a nossos clientes conteúdos de alta qualidade no menor 
+                            prazo possível. Somos capazes de produzir obras que impactam de acordo com a sua demanda, realizadas 
+                            por uma equipe de especialistas e um arsenal de cinema. 
                         </p>
 
                         <p>
-                            non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt 
-                            ullamco est sit aliquaAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet 
-                            minim. Amet minim mollit non deserunt ullamco est sit aliquaAmet minim mollit non non deserunt ullamco est sit v
+                            Nossa capacidade produtiva vai do alto volume de materiais curtos à elaboração de materiais 
+                            extensos e detalhistas. Somos uma agência criativa preparada para transformar as suas ideias 
+                            em conteúdos inesquecíveis.
                         </p>
                     </div>
                 </div>

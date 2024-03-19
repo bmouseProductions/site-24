@@ -1,6 +1,6 @@
-import img1 from '../../../../../../assets/images/Services/SubPages/Audiovisual/img1.webp'
-import img2 from '../../../../../../assets/images/Services/SubPages/Audiovisual/img2.webp'
-import img3 from '../../../../../../assets/images/Services/SubPages/Audiovisual/img3.webp'
+import img1 from '../../../../../../assets/images/Services/SubPages/Ads/img1.webp'
+import img2 from '../../../../../../assets/images/Services/SubPages/Ads/img2.webp'
+import img3 from '../../../../../../assets/images/Services/SubPages/Ads/img3.webp'
 
 export default function SectionFour(){
     return (
@@ -12,26 +12,23 @@ export default function SectionFour(){
                     </h1>
                     <div className="xl:mb-10 flex flex-col justify-end gap-5 lg:gap-10">
                         <p>
-                            non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt 
-                            ullamco est sit aliquaAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet 
-                            minim. Amet minim mollit non deserunt ullamco est sit aliquaAmet minim mollit non non deserunt ullamco est sit aliqua 
-                            dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt ullamco est sit aliquaAmet minim mollit 
-                            non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt 
-                            ullamco est sit aliquaAmet minim mollit non non deserunt ullamco est sit aliqua dolor do amet sint. 
+                            A BMouse trabalha a todo vapor para entregar a nossos clientes conteúdos de alta qualidade no menor 
+                            prazo possível. Somos capazes de produzir obras que impactam de acordo com a sua demanda, realizadas 
+                            por uma equipe de especialistas e um arsenal de cinema.  
                         </p>
 
                         <p>
-                            non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt 
-                            ullamco est sit aliquaAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet 
-                            minim. Amet minim mollit non deserunt ullamco est sit aliquaAmet minim mollit non non deserunt ullamco est sit v
+                            Nossa capacidade produtiva vai do alto volume de materiais curtos à elaboração de materiais 
+                            extensos e detalhistas. Somos uma agência criativa preparada para transformar as suas ideias 
+                            em conteúdos inesquecíveis.
                         </p>
                     </div>
                 </div>
                 <div className="mt-10 mb-32 flex flex-col md:flex-row justify-center gap-5 md:gap-0">
-                    <img src={img1} alt="" className='md:w-1/2  !max-h-[550px]' />
+                    <img src={img1} alt="" className='md:w-[60%] rounded-[30px] !max-h-[550px]' />
                     <div className="flex flex-col gap-5 md:gap-0">
-                        <img src={img2} alt="" className='md:w-full ' />
-                        <img src={img3} alt="" className='md:w-full ' />
+                        <img src={img2} alt="" className='md:w-full rounded-[30px]' />
+                        <img src={img3} alt="" className='md:w-full rounded-[30px]' />
                     </div>
                 </div>
             </div>

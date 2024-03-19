@@ -10,7 +10,7 @@ import Home from './Pages/Home/Home';
 import Footer from './components/Footer/Footer';
 import BackToTop from './components/BackToTop/BackToTop';
 import Services from './Pages/Services/Service';
-import BradingService from './Pages/Services/SubPages/Brading/Branding';
+import BradingService from './Pages/Services/SubPages/Branding/Branding';
 import MarketingService from './Pages/Services/SubPages/Marketing/Marketing';
 import EndomarketingService from './Pages/Services/SubPages/Endomarketing/Endomarketing';
 import AudiovisualService from './Pages/Services/SubPages/Audiovisual/Audiovisual';

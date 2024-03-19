@@ -1,6 +1,6 @@
-import img1 from '../../../../../../assets/images/Services/SubPages/Endomarketing/img1.webp'
-import img2 from '../../../../../../assets/images/Services/SubPages/Endomarketing/img2.webp'
-import img3 from '../../../../../../assets/images/Services/SubPages/Endomarketing/img3.webp'
+import img1 from '../../../../../../assets/images/Services/SubPages/Branding/img1.webp'
+import img2 from '../../../../../../assets/images/Services/SubPages/Branding/img2.webp'
+import img3 from '../../../../../../assets/images/Services/SubPages/Branding/img3.webp'
 
 export default function SectionFour(){
     return (
@@ -12,9 +12,9 @@ export default function SectionFour(){
                     </h1>
                     <div className="xl:mb-10 flex flex-col justify-end gap-5 lg:gap-10">
                         <p>
-                            A BMouse trabalha a todo vapor para entregar a nossos clientes conteúdos de alta qualidade no menor 
+                        A BMouse trabalha a todo vapor para entregar a nossos clientes conteúdos de alta qualidade no menor 
                             prazo possível. Somos capazes de produzir obras que impactam de acordo com a sua demanda, realizadas 
-                            por uma equipe de especialistas e um arsenal de cinema.  
+                            por uma equipe de especialistas e um arsenal de cinema. 
                         </p>
 
                         <p>
@@ -25,7 +25,7 @@ export default function SectionFour(){
                     </div>
                 </div>
                 <div className="mt-10 mb-32 flex flex-col md:flex-row justify-center gap-5 md:gap-0">
-                    <img src={img1} alt="" className='md:w-1/2 rounded-[30px] !max-h-[550px]' />
+                    <img src={img1} alt="" className='md:w-[65%] rounded-[30px] !max-h-[550px]' />
                     <div className="flex flex-col gap-5 md:gap-0">
                         <img src={img2} alt="" className='md:w-full rounded-[30px]' />
                         <img src={img3} alt="" className='md:w-full rounded-[30px]' />
