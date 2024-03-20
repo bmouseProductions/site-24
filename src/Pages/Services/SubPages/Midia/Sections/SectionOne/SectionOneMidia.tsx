@@ -15,7 +15,7 @@ export default function SectionOne(){
                         Grande Midia
                     </h1>
                     <p className="md:pr-5">
-                        non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt ullamco est sit aliquaAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia Amet minim. Amet minim mollit non deserunt ullamco est sit aliquaAmet minim mollit non 
+                    Nossa equipe especializada está pronta para alcançar os melhores resultados em campanhas on-line e off-line na grande mídia. Desde anúncios na televisão e rádio a jornais de destaque, estamos preparados para desenvolver produtos de qualidade para atender suas demandas para os diferentes canais de comunicação. Independentemente se é para impulsionar vendas ou aumentar o reconhecimento da marca frente ao público, te ajudaremos a alcançar suas metas, junto à grande mídia.
                     </p>
                 </div>
             </div>
