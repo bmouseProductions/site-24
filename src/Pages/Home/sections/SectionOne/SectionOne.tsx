@@ -66,9 +66,7 @@ export const SectionOne = () => {
                 {" "}
                 <h2 className="text-xl font-bold">AgroMouse</h2>
                 <p className="">
-                  Mais do uma escolha, a evolução é uma necessidade! Com a
-                  BMouse, o agro sai do campo e vai para o mundo digital,
-                  alcançando novos públicos, novos horizontes e novos lugares
+                Mais do que uma escolha, a evolução é uma necessidade! Com a BMouse, o agro sai do campo e vai para o mundo digital, alcançando novos públicos, novos horizontes e novos lugares.
                 </p>
               </div>
               <div>

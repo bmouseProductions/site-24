@@ -31,7 +31,7 @@ export default function SectionTwo(){
                             <li>Criação de conteúdos de sucesso;</li>
                             <li>Monitoramento de críticas;</li>
                             <li>Interatividade com seguidores;</li>
-                            <li>Marketing;</li>
+                            <li>Marketing.</li>
                         </ul>
                     </div>
                     

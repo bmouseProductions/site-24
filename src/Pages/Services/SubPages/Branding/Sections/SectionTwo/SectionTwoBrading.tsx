@@ -28,7 +28,7 @@ export default function SectionTwo(){
                             <li>Calendário de marketing de conteúdo;</li>
                         </ul>
                         <p>
-                        Não é porque existe um imenso avanço no marketing digital que as estratégias offline ficaram restritivas ou perderam sua influência. Trabalhar em 360º graus é a garantia que estaremos utilizando todos os recursos disponíveis em prol da concretização do nosso projeto.
+                        Não é porque existe um imenso avanço no marketing digital que as estratégias off-line ficaram restritivas ou perderam sua influência.
                         </p>
                     </div>
                     

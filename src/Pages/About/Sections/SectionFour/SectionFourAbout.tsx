@@ -9,8 +9,7 @@ export default function SectionFour(){
                         Como nós trabalhamos?
                     </h1>
                     <p>
-                        <strong className="font-meutas-medium font-bold">A BMouse </strong> 
-                        trabalha com um sistema 100% personalizado de acordo com as suas demandas. Por meio do nosso 
+                        A BMouse trabalha com um sistema 100% personalizado de acordo com as suas demandas. Por meio do nosso 
                         fluxo criativo, garantimos que você tenha acesso prévio aos conteúdos planejados mensalmente e 
                         campanhas anuais.
                     </p>

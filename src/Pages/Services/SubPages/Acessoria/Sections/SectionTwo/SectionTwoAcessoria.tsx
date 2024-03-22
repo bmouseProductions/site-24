@@ -26,7 +26,7 @@ export default function SectionTwo(){
                             <li>Negociação com veículos de comunicação especializados;</li>
                             <li>Materiais e planejamentos para feiras e convenções;</li>
                             <li>Criação de vinhetas para rádios e veículos especializados;</li>
-                            <li>Destinação de verba para projetos de leis de incentivo;</li>
+                            <li>Destinação de verba para projetos de leis de incentivo.</li>
                         </ul>
                     </div>
                     

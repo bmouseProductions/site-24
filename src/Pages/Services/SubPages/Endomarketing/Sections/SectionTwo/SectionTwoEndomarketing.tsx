@@ -31,7 +31,7 @@ export default function SectionTwo(){
                             <li>Criação de normas e manuais de treinamento para o time;</li>
                             <li>Valorização de grandes feitos dos colaboradores;</li>
                             <li>Engajamento dos colaboradores nas redes sociais do grupo;</li>
-                            <li>Criação do modelo e das ferramentas de comunicação internas do grupo;</li>
+                            <li>Criação do modelo e das ferramentas de comunicação internas do grupo.</li>
                         </ul>
                     </div>
                     

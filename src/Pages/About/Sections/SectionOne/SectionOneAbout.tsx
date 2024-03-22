@@ -12,16 +12,12 @@ export function SectionOne(){
                         Quem somos?
                     </h1>
                     <p>
-                        Ao longo do tempo, a BMouse consolidou-se como uma força inovadora, indo além dos limites convencionais 
-                        do marketing. Sob a direção de Tom Gonçalves e Roberta Almeida, a BMouse é um projeto que se transformou 
-                        em realidade. Desde então, temos transformado a realidade de dezenas de clientes que confiaram seus projetos 
-                        e negócios em nossas mãos.
+                        Ao longo do tempo, a BMouse consolidou-se como uma força inovadora, indo além dos limites convencionais do marketing. 
+                        Sob a direção de Tom Gonçalves e Roberta Almeida, a BMouse é um projeto que se transformou em realidade. Desde então, temos transformado a realidade de dezenas de clientes que confiaram suas ideias e negócios em nossas mãos.
                     </p>
 
                     <p>
-                        A BMouse vai além de ser apenas uma agência de marketing, nós somos verdadeiros especialistas na criação de 
-                        campanhas que não apenas buscam resultados, mas também se destacam como obras estratégicas. Com uma equipe 
-                        composta por um time de especialistas, nós somos profissionais da arte de criar!
+                        A BMouse vai além de ser apenas uma agência de marketing, nós somos verdadeiros experts na criação de campanhas que não apenas buscam resultados, mas também se destacam como obras estratégicas. Com uma equipe composta por um time de especialistas, nós somos profissionais da arte de criar!
                     </p>
                 </div>
 

@@ -29,11 +29,11 @@ export default function SectionTwo(){
                         </p>
                         <ul className='list-disc pl-5'>
                             <li>Facebook ADS;</li>
-                            <li>Facebook ADS;</li>
-                            <li>Facebook ADS;</li>
-                            <li>Facebook ADS;</li>
+                            <li>Google ADS;</li>
+                            <li>Linkedin ADS;</li>
+                            <li>Tiktok ADS;</li>
                             <li>Kwai ADS;</li>
-                            <li>Captura de Leads / E-mail Marketing;</li>
+                            <li>Captura de Leads / E-mail Marketing.</li>
                         </ul>
                     </div>
                     

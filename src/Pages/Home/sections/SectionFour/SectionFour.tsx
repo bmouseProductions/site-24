@@ -12,25 +12,25 @@ const info = [
   {
     img: agromouse,
     title: "AgroMouse",
-    text: "Saindo do campo para o digital!",
+    text: "Saindo do campo para o digital",
     link: ''
   },
   {
     img: zoomies,
     title: "Zoomies",
-    text: "Lançamento dos produtos Zoomies!",
+    text: "Lançamento dos produtos Zoomies",
     link: ''
   },
   {
     img: giolaser,
     title: "GiO 10 anos!",
-    text: "Campanha de 10 anos da GiOlaser!",
+    text: "Campanha de 10 anos da GiOlaser",
     link: ''
   },
   {
     img: agroecologia,
     title: "Patense Agroecologia",
-    text: "Lançamento dos biofertilizantes mais inovadores do mercado!",
+    text: "Lançamento dos biofertilizantes mais inovadores do mercado",
     link: ''
   },
   {

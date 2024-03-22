@@ -4,7 +4,7 @@ import img3 from '../../../../../../assets/images/Services/SubPages/Audiovisual/
 
 export default function SectionFour(){
     return (
-        <section className=" bg-blur-left">
+        <section className=" bg-blur-left mt-20">
             <div className='container px-5 lg:px-10 xl:px-20 mx-auto'>
                 <div className="flex flex-col lg:flex-row gap-10 xl:gap-20">
                     <h1 className="font-tittle !text-[90px] md:!text-[130px] ">
@@ -12,9 +12,7 @@ export default function SectionFour(){
                     </h1>
                     <div className="xl:mb-10 flex flex-col justify-end gap-5 lg:gap-10">
                         <p>
-                            A BMouse trabalha a todo vapor para entregar a nossos clientes conteúdos de alta qualidade no menor 
-                            prazo possível. Somos capazes de produzir obras que impactam de acordo com a sua demanda, realizadas 
-                            por uma equipe de especialistas e um arsenal de cinema. 
+                        A BMouse trabalha a todo vapor para entregar aos nossos clientes conteúdos de alta qualidade no menor prazo possível. Somos capazes de produzir obras que impactam de acordo com a sua demanda, realizadas por uma equipe de especialistas e um arsenal de cinema.
                         </p>
 
                         <p>

@@ -29,7 +29,7 @@ export default function SectionTwo(){
                         <ul className='list-disc pl-5'>
                             <li>Press release;</li>
                             <li>Spots para rádio;</li>
-                            <li>Anúncios diversos.para mídia impressa ou digital;</li>
+                            <li>Anúncios diversos.para mídia impressa ou digital.</li>
                         </ul>
 
                         <p className='md:text-sm lg:text-base'>

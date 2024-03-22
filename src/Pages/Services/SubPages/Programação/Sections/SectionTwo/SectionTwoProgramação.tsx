@@ -26,7 +26,7 @@ export default function SectionTwo(){
                             <li>Landing Pages;</li>
                             <li>E-commerce;</li>
                             <li>Blog;</li>
-                            <li>SEO (Search Engine Optimization ou Otimização para Mecanismos de Busca);</li>
+                            <li>SEO (Search Engine Optimization ou Otimização para Mecanismos de Busca).</li>
                         </ul>
                     </div>
                     
