@@ -276,3 +276,7 @@ hr {
     color: #000 !important;
     
 }
+
+button.botaoClose:hover svg path {
+    color: red;
+}

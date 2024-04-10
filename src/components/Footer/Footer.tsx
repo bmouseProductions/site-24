@@ -32,7 +32,7 @@ export default function Footer(){
                         className='md:text-base lg:text-lg  '
                     >
                         Rua Dr. José Olímpio <br />
-                        Borges, 124 - Vila Santa Luzia,
+                        Borges, 134 - Vila Santa Luzia,
                         Patos de Minas - MG,
                         38700-080
                     </a>

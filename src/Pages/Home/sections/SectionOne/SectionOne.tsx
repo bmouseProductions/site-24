@@ -1,3 +1,4 @@
+import React, { useState,  } from 'react';
 
 import { Botao } from "../../../../components/BotaoEscuro/Botao";
 import Header from "../../../../components/Header/Header";
@@ -5,7 +6,48 @@ import franchising from '../../../../assets/images/Home/header-section-1.svg'
 import agromouse from '../../../../assets/images/Home/agromouse.webp'
 import story from '../../../../assets/images/Home/story2.webp'
 
+interface ModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
 export const SectionOne = () => {
+  /*MODAL VIDEO*/
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  const ModalVideo: React.FC<ModalProps> = ({ isOpen, onClose }) => {
+  
+    return (
+      <>
+        {isOpen && (
+          <div className="pt-10 fixed z-[10000] inset-0 bg-black bg-opacity-50 flex items-start justify-center">
+            <div className='container mx-auto px-5 md:px-10'>
+              <div className='flex justify-end'>
+                <button 
+                  className='w-10 h-10 mb-5 md:mb-0 botaoClose'
+                  onClick={onClose}
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-full h-full">
+                    <path strokeLinecap="round" className='w-full h-full ' strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+              <iframe
+                className="mx-auto w-full md:max-w-[600px] md:h-[400px] lg:max-w-[700px] lg:h-[515px] xl:max-w-[1000px] h-[200px] rounded-3xl"
+                src="https://www.youtube.com/embed/tOUAucHN7QQ?si=Nc9uLH86B0GShAhF"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              />
+            </div>
+          </div>
+        )}
+      </>
+    );
+  };
+
   return (
     <section className=" md:pt-10 bg-section-one mx-auto">
       <Header />
@@ -31,7 +73,7 @@ export const SectionOne = () => {
           <div className=" flex-1 flex flex-col items-center justify-end rounded-[29px]  w-full">
             <a
               className="relative w-full flex justify-center rounded-[29.5px] overflow-hidden transition-all card-empresa"
-              href=""
+              onClick={openModal}
             >
               <img className='w-full md:w-[80%] lg:w-full transition-all' src={franchising} alt="" />
               <div className="hidden absolute bottom-0 h-[160px] w-full md:w-[80%] lg:w-full px-10 efeito-vidro md:flex items-center justify-between gap-10 text-white ">
@@ -51,6 +93,7 @@ export const SectionOne = () => {
                 </div>
               </div> 
             </a>
+            <ModalVideo isOpen={isModalOpen} onClose={closeModal} />
           </div>
         </div>
 
@@ -91,7 +134,7 @@ export const SectionOne = () => {
 
           <a
             className="!h-full lg:!h-[300px] lg:!w-[30%] flex flex-col items-center justify-end rounded-[29px] transition-all bg-story card-empresa"
-            href=""
+            href="/servicos/audiovisual"
           >
             <img className="lg:hidden rounded-[30px] w-full" src={story}  alt="" />
             <div className="h-[140px] px-5 xl:px-7 efeito-vidro rounded-[29px] hidden lg:flex items-center justify-between xl:gap-5 text-white ">

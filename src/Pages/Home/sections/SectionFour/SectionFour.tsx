@@ -13,37 +13,37 @@ const info = [
     img: agromouse,
     title: "AgroMouse",
     text: "Saindo do campo para o digital",
-    link: ''
+    link: 'https://bmouseproductions.com/view/atendimento/nossos-trabalhos/'
   },
   {
     img: zoomies,
     title: "Zoomies",
     text: "Lançamento dos produtos Zoomies",
-    link: ''
+    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/identidade-visual-da-zoomies/'
   },
   {
     img: giolaser,
     title: "GiO 10 anos!",
     text: "Campanha de 10 anos da GiOlaser",
-    link: ''
+    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/giolaser/'
   },
   {
     img: agroecologia,
     title: "Patense Agroecologia",
     text: "Lançamento dos biofertilizantes mais inovadores do mercado",
-    link: ''
+    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/agroecologia/'
   },
   {
     img: sorridents,
     title: "Sorridents",
     text: "Produção de conteúdo audiovisual",
-    link: ''
+    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/sorridents/'
   },
   {
     img: Patense,
     title: "Grupo Patense",
     text: "Campanha “O poder da transformação”",
-    link: ''
+    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/patense/'
   },
 ];
 
@@ -96,7 +96,10 @@ export const SectionFour = () => {
       </div>
 
       <div className='w-[225px] mt-12 mx-auto'>
-        <Botao text='Saiba mais' tipo='tipo2'/>
+        <a href="https://bmouseproductions.com/view/atendimento/nossos-trabalhos/">
+          <Botao text='Saiba mais' tipo='tipo2'/>
+        </a>
+        
       </div>
     </section>
   );
