@@ -2,7 +2,7 @@ import React, { useState,  } from 'react';
 
 import { Botao } from "../../../../components/BotaoEscuro/Botao";
 import Header from "../../../../components/Header/Header";
-import franchising from '../../../../assets/images/Home/header-section-1.svg'
+import franchising from '../../../../assets/images/Home/thumb.webp'
 import agromouse from '../../../../assets/images/Home/agromouse.webp'
 import story from '../../../../assets/images/Home/story2.webp'
 
