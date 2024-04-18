@@ -37,7 +37,7 @@ export const SectionOne = () => {
               </div>
               <iframe
                 className="mx-auto w-full md:max-w-[600px] md:h-[400px] lg:max-w-[700px] lg:h-[515px] xl:max-w-[1000px] h-[200px] rounded-3xl"
-                src="https://www.youtube.com/embed/tOUAucHN7QQ?si=Nc9uLH86B0GShAhF"
+                src="https://www.youtube.com/embed/dJmUMM-m2Wo?si=J6AIbRnem7C4ixz-"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               />
@@ -72,22 +72,22 @@ export const SectionOne = () => {
 
           <div className=" flex-1 flex flex-col items-center justify-end rounded-[29px]  w-full">
             <a
-              className="relative w-full flex justify-center rounded-[29.5px] overflow-hidden transition-all card-empresa"
+              className="relative w-full flex justify-center rounded-[29.5px] overflow-hidden transition-all cursor-pointer card-empresa"
               onClick={openModal}
             >
               <img className='w-full md:w-[80%] lg:w-full transition-all' src={franchising} alt="" />
               <div className="hidden absolute bottom-0 h-[160px] w-full md:w-[80%] lg:w-full px-10 efeito-vidro md:flex items-center justify-between gap-10 text-white ">
                 <div className="flex flex-col gap-5">
                   {" "}
-                  <h2 className="text-xl font-bold">BMouse franchising</h2>
-                  <p>Expanda suas fronteiras com um marketing especializado em franchising! Com um time de especialistas ao seu lado, sua marca e seu know-how tornam-se ferramentas poderosas.</p>
+                  <h2 className="text-xl font-bold">Seja bem-vindo a BMouse!</h2>
+                  <p>Clique e assista o vídeo.</p>
                 </div>
                 <div>
                   <div
                     className="!h-[50px] flex items-center justify-center !w-[50px] rounded-full border border-white button-card transition-all"
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 !text-black">
-                      <path strokeLinecap="round" className='' strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 !text-black">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
                     </svg>
                   </div>
                 </div>
