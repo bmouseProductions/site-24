@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { Botao } from "../../../../components/BotaoEscuro/Botao";
 import SliderHome from "../../../../components/sliders/SliderHome";
 
@@ -10,10 +9,7 @@ export const SectionThree = () => {
         <div className="relative mb-10 w-full flex justify-center md:items-end ">
           <SliderHome />
           <div className="absolute bottom-0 mb-[-40px] w-full max-w-[200px] ">
-            <NavLink to='/sobre' >
-              <Botao tipo="tipo2" text="Saiba Mais"></Botao>
-            </NavLink>
-            
+            <Botao tipo="tipo2" text="Saiba Mais" link="/sobre" />
           </div>
         </div>
           
