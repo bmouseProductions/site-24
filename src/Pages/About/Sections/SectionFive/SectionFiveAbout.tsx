@@ -14,7 +14,10 @@ export default function SectionFive(){
                         decolar?
                     </h1>
                     <div className='flex justify-center md:justify-end'>
-                        <a className='max-w-[190px] w-full text-xl md:text-2xl text-center text-black px-2 py-3 bg-white rounded-3xl'>
+                        <a 
+                            href='/servicos'
+                            className='max-w-[190px] w-full text-xl md:text-2xl text-center text-black px-2 py-3 bg-white rounded-3xl'
+                        >
                             Saiba mais
                         </a>
                     </div>
