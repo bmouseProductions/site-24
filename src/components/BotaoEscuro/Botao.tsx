@@ -2,10 +2,11 @@
 interface BtnProps {
   text: string;
   tipo: "tipo1" | "tipo2";
+  link: string;
 }
 
 
-export const Botao = ({ text, tipo }: BtnProps) => {
+export const Botao = ({ text, tipo, link }: BtnProps) => {
   
   const handleBackToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -21,11 +22,12 @@ export const Botao = ({ text, tipo }: BtnProps) => {
   };
 
   return (
-    <button
+    <a
+      href={link}
       onClick={handleBackToTop}
-      className={`h-[80px] w-full text-xl font-semibold rounded-[57px]  font-montserrat transition-all ${getBackgroundColor()}`}
+      className={`!h-[80px] w-full flex justify-center items-center text-xl font-semibold text-center rounded-[57px] font-montserrat transition-all ${getBackgroundColor()}`}
     >
       {text}
-    </button>
+    </a>
   );
 };

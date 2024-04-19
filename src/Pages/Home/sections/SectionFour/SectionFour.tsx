@@ -1,6 +1,6 @@
 import {Botao} from '../../../../components/BotaoEscuro/Botao'
 
-import agromouse from "../../../../assets/images/Home/SectionFour/agromouse.webp";
+import bmod from "../../../../assets/images/Home/SectionFour/bomd+.webp";
 import zoomies from "../../../../assets/images/Home/SectionFour/zoomies.webp";
 import giolaser from "../../../../assets/images/Home/SectionFour/giolaser.webp";
 import agroecologia from "../../../../assets/images/Home/SectionFour/agroecologia.webp";
@@ -10,9 +10,9 @@ import Patense from "../../../../assets/images/Home/SectionFour/patense.webp";
 
 const info = [
   {
-    img: agromouse,
-    title: "AgroMouse",
-    text: "Saindo do campo para o digital",
+    img: bmod,
+    title: "bomd+",
+    text: "Lançamento do cartão de desconto bomd+",
     link: 'https://bmouseproductions.com/view/atendimento/nossos-trabalhos/'
   },
   {
@@ -96,9 +96,11 @@ export const SectionFour = () => {
       </div>
 
       <div className='w-[225px] mt-12 mx-auto'>
-        <a href="https://bmouseproductions.com/view/atendimento/nossos-trabalhos/">
-          <Botao text='Saiba mais' tipo='tipo2'/>
-        </a>
+          <Botao 
+            text='Saiba mais' 
+            tipo='tipo2' 
+            link='https://bmouseproductions.com/view/atendimento/nossos-trabalhos/'
+          />
         
       </div>
     </section>

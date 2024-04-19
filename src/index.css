@@ -205,10 +205,10 @@ border-radius: 8px;
 
     .bg-story {
         padding-bottom: 0px;
-        background: url(./assets/images/Home/story.webp);
+        background: url(./assets/images/Home/audiovisual-icon.webp);
         background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
+        background-position: center right;
+        background-size: 100%;
     }
 
 }
