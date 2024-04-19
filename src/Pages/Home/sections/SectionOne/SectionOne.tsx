@@ -69,7 +69,7 @@ export const SectionOne = () => {
               </div>
               <iframe
                 className="mx-auto w-full md:max-w-[600px] md:h-[400px] lg:max-w-[700px] lg:h-[515px] xl:max-w-[1000px] h-[200px] rounded-3xl"
-                src="https://www.youtube.com/embed/dJmUMM-m2Wo?si=J6AIbRnem7C4ixz-"
+                src="https://www.youtube.com/embed/36jOLshV4_M?si=ulug941jefsgDsFE"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               />
