@@ -58,7 +58,6 @@ export default function Footer(){
                     backgroundColor: "#FFFFFF",
                     customIconSrc:
                         "https://s3.typebot.io/public/workspaces/clv2tewr6000hh80cwwlpcfjg/typebots/clv2thip6000112k79mwnke6i/bubble-icon?v=1713895393916",
-                    size: "large",
                     },
                     previewMessage: {
                     closeButtonBackgroundColor: "#0042DA",

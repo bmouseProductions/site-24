@@ -32,14 +32,12 @@ export default function SliderColaborador() {
                 breakpoint: 1280,
                 settings: {
                   slidesToShow: 4,
-                  slidesToScroll: 1
                 }
             },
             {
                 breakpoint: 1040,
                 settings: {
                   slidesToShow: 3,
-                  slidesToScroll: 1
                 }
             },
             {

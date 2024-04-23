@@ -15,7 +15,7 @@ export default function SectionTwo(){
                     </div>
                     
                     <h1 className='font-tittle lg:!text-[110px] xl:!text-[130px] 2xl:!text-[170px] text-center lg:text-start'>
-                        Site e muito mais
+                        Sites e muito mais
                     </h1>
 
                     <img src={border} className=' ' alt="" />
