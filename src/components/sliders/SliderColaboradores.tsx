@@ -5,14 +5,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import naia from '../../assets/images/colaboradores/naia.webp'
-import joyce from '../../assets/images/colaboradores/joyce.webp'
 import bruno from '../../assets/images/colaboradores/bruno.webp'
 import leo from '../../assets/images/colaboradores/leo.webp'
 import matheus from '../../assets/images/colaboradores/matheus.webp'
 import melissa from '../../assets/images/colaboradores/melissa.webp'
 import nalberthy from '../../assets/images/colaboradores/nalberthy.webp'
 import rafael from '../../assets/images/colaboradores/rafael.webp'
-import raissa from '../../assets/images/colaboradores/raissa.webp'
 import ricardo from '../../assets/images/colaboradores/ricardo.webp'
 import veras from '../../assets/images/colaboradores/veras.webp'
 import jenifer from '../../assets/images/colaboradores/jenifer.webp'
@@ -62,12 +60,6 @@ export default function SliderColaborador() {
     };
 
     const colaboradores = [
-
-        {
-            nome: "Joyce",
-            setor: "Designer",
-            imagem: joyce
-        },
         {
             nome: "Naiá",
             setor: "Redator",
@@ -76,18 +68,17 @@ export default function SliderColaborador() {
 
         {
             nome: "Bruno",
-            setor: "Designer",
+            setor: "Editor",
             imagem: bruno
         },
         {
             nome: "Leo",
-            setor: "Redator",
+            setor: "Designer",
             imagem: leo
         },
-
         {
             nome: "matheus",
-            setor: "Designer",
+            setor: "Programador",
             imagem: matheus
         },{
             nome: "melissa",
@@ -97,43 +88,37 @@ export default function SliderColaborador() {
 
         {
             nome: "nalberthy",
-            setor: "Designer",
+            setor: "Editor",
             imagem: nalberthy
         },
         {
             nome: "rafael",
-            setor: "Redator",
+            setor: "Editor",
             imagem: rafael
-        },
-
-        {
-            nome: "raissa",
-            setor: "Designer",
-            imagem: raissa
         },
         {
             nome: "ricardo",
-            setor: "Redator",
+            setor: "Editor",
             imagem: ricardo
         },
         {
             nome: "Veras",
-            setor: "Redator",
+            setor: "Gerente",
             imagem: veras
         },
         {
             nome: "Jenifer",
-            setor: "Redator",
+            setor: "Programação e ADS",
             imagem: jenifer
         },
         {
             nome: "Tom",
-            setor: "Redator",
+            setor: "CEO",
             imagem: tom
         },
         {
             nome: "Roberta",
-            setor: "Redator",
+            setor: "CEO",
             imagem: roberta
         },
     ]

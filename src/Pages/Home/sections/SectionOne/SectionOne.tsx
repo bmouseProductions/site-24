@@ -142,7 +142,8 @@ export const SectionOne = () => {
           
           <a 
             className="!h-full lg:!h-[300px] w-full lg:!w-[70%] flex flex-col items-center justify-end rounded-[29px] transition-all bg-agromouse card-empresa"
-            href=""
+            href="https://bmouseproductions.com/agromouse/"
+            target='_blank'
           >
             <img className="lg:hidden" src={agromouse}  alt="" />
             <div className="h-[140px] px-5 xl:px-7 efeito-vidro rounded-[29px] hidden lg:flex items-center justify-between gap-10 text-white ">
