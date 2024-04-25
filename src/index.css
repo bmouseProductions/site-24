@@ -64,6 +64,7 @@ background: #00c8ff;
 border-radius: 8px;
 }
 
+/* FONT TITLE */
 .font-tittle{
     font-family: delligual;
     font-size: 100px;
@@ -104,6 +105,8 @@ border-radius: 8px;
         line-height: 100%;
     }
 }
+
+/* BACKGROUNDS */
 
 .bg-section-one {
     background: url(./assets/images/backgrounds/bg-section-1.svg);
@@ -174,8 +177,7 @@ border-radius: 8px;
     .bg-sobre{
         background: url(./assets/images/backgrounds/bg-sobre.webp);
         background-repeat: no-repeat;
-        background-position: top center;
-        background-size: 850px;
+        background-position: top right;
     }
 }
   
@@ -192,6 +194,8 @@ border-radius: 8px;
     background-color: #0000008e;
     padding-bottom: 15px;
 }
+
+
 
 @media (min-width:1024px) {
 

@@ -9,28 +9,28 @@ import logo from '../../assets/images/logos/logo-bmouse.svg'
 function NavList() {
   return (
     <ul className="pt-5  flex flex-col md:flex-row md:items-center gap-5  ">
-      <NavLink to="/sobre" className="text-lg md:text-xl !font-montserrat cursor-pointer">
+      <NavLink to="/sobre" className="text-lg md:text-xl !font-montserrat cursor-pointer hover:underline transition-all">
         Sobre
       </NavLink>
 
-      <NavLink to="/servicos/audiovisual" className="text-lg md:text-xl !font-montserrat cursor-pointer">
+      <NavLink to="/servicos/audiovisual" className="text-lg md:text-xl !font-montserrat cursor-pointer hover:underline transition-all">
         Studios Bmouse
       </NavLink>
 
       <a 
         href="https://bmouseproductions.com/view/atendimento/nossos-trabalhos/"
-        className="text-lg md:text-xl !font-montserrat cursor-pointer"
+        className="text-lg md:text-xl !font-montserrat cursor-pointer hover:underline transition-all"
       >
         Nossos trabalhos
       </a>
 
-      <NavLink to="/servicos" className="text-lg md:text-xl !font-montserrat cursor-pointer">
+      <NavLink to="/servicos" className="text-lg md:text-xl !font-montserrat cursor-pointer hover:underline transition-all">
         Serviços
       </NavLink>
 
       <a 
         href="https://bmouseproductions.com/view/atendimento/trabalhe-conosco/"
-        className="text-lg md:text-xl !font-montserrat cursor-pointer"
+        className="text-lg md:text-xl !font-montserrat cursor-pointer hover:underline transition-all"
       >
         Trabalhe conosco
       </a>
@@ -38,7 +38,7 @@ function NavList() {
       
       <a
         href="https://bmouseproductions.com/view/atendimento/"
-        className=" px-5 py-3 text-white text-lg rounded-[30px] bg-[#760BFF] shadow-botao shadow-[#760BFF]"
+        className=" px-5 py-3 text-white text-lg rounded-[30px] bg-[#760BFF] hover:bg-[#0f182d] transition-all shadow-botao shadow-[#760BFF]"
       >
         Fale conosco  
       </a>
