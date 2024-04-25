@@ -118,7 +118,7 @@ export const SectionOne = () => {
               <div className=" absolute bottom-0 md:h-[160px] w-full md:w-[80%] lg:w-full px-5 md:px-10 py-3 efeito-vidro md:flex items-center justify-between gap-10 text-white ">
                 <div className="flex flex-col gap-2 md:gap-5">
                   {" "}
-                  <h2 className="text-xl font-bold">Seja bem-vindo à BMouse!</h2>
+                  <h2 className="text-xl font-bold">Seja bem-vindo à Bmouse!</h2>
                   <p>Clique e assista ao vídeo.</p>
                 </div>
                 <div>

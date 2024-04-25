@@ -29,12 +29,12 @@ export default function BackToTop() {
   };
 
   return (
-    <div id='backTop' className={`fixed left-4 bottom-5 md:bottom-5 z-40 ${isSticky ? '' : 'hidding'}`}>
+    <div id='backTop' className={`fixed left-[27px] bottom-20 z-40 ${isSticky ? '' : 'hidding'}`}>
       <button
-        className='flex justify-center items-center rounded-full py-[6px] px-2 bg-[#00c8ff]  shadow-[0px_0px_5px_#5404da]'
+        className='flex justify-center items-center rounded-full py-[10px] px-[14px] bg-[#00c8ff]  shadow-[0px_0px_5px_#5404da]'
         onClick={handleBackToTop}
       >
-        <FontAwesomeIcon icon={faArrowUp} className='text-[20px] text-white' />
+        <FontAwesomeIcon icon={faArrowUp} className='text-[25px] text-white' />
       </button>
     </div>
   );

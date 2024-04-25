@@ -13,7 +13,7 @@ const info = [
     img: bmod,
     title: "bomd+",
     text: "Lançamento do cartão de desconto bomd+",
-    link: 'https://bmouseproductions.com/view/atendimento/nossos-trabalhos/'
+    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/bomd/'
   },
   {
     img: zoomies,

@@ -30,7 +30,8 @@ export default function Footer(){
                 <div className=' font-delligual  '>
                     <h2 className="md:text-xl text-wrap lg:text-3xl font-bold mb-5">Endereço:</h2>
                     <a 
-                        href="https://www.google.com/maps/dir/-18.5858187,-46.50845/ag%C3%AAncia+de+marketing+%7C+bmouse+productions+%7C+marketing+digital+patos+de+minas+endere%C3%A7o/@-18.5837763,-46.523119,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94ae8b4414941bf9:0xcb640417f8da94dc!2m2!1d-46.5162056!2d-18.5831493?entry=ttu" 
+                        href="https://maps.app.goo.gl/b51VELzwuPrhMtoV9" 
+                        target='_blank'
                         className='md:text-base lg:text-lg  '
                     >
                         Rua Dr. José Olímpio <br />
@@ -42,7 +43,7 @@ export default function Footer(){
             </div>
             <img src={Border} alt="" className="w-full my-20" />
             <p className='text-xl text-center container lg:px-10 xl:px-20 mx-auto mb-14'>
-                <strong>Copyright</strong> © 2024 - Bmouse
+                <strong>Copyright</strong> © 2024 - Bmouse Productions
             </p>
 
             <Bubble
