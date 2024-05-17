@@ -1,49 +1,49 @@
 import {Botao} from '../../../../components/BotaoEscuro/Botao'
 
-import bmod from "../../../../assets/images/Home/SectionFour/bomd+.webp";
-import zoomies from "../../../../assets/images/Home/SectionFour/zoomies.webp";
 import giolaser from "../../../../assets/images/Home/SectionFour/giolaser.webp";
-import agroecologia from "../../../../assets/images/Home/SectionFour/agroecologia.webp";
 import sorridents from "../../../../assets/images/Home/SectionFour/sorridents.webp";
-import Patense from "../../../../assets/images/Home/SectionFour/patense.webp";
+import draElisangela from "../../../../assets/images/Home/SectionFour/draElisangela.webp";
+import draRenata from "../../../../assets/images/Home/SectionFour/draRenata.webp";
+import mid from "../../../../assets/images/Home/SectionFour/mid.webp";
+import olharCerto from "../../../../assets/images/Home/SectionFour/olharCerto.webp";
 
 
 const info = [
   {
-    img: bmod,
-    title: "bomd+",
-    text: "Lançamento do cartão de desconto bomd+",
-    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/bomd/'
-  },
-  {
-    img: zoomies,
-    title: "Zoomies",
-    text: "Lançamento dos produtos Zoomies",
-    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/identidade-visual-da-zoomies/'
-  },
-  {
     img: giolaser,
     title: "GiO 10 anos!",
-    text: "Campanha de 10 anos da GiOlaser",
+    text: "Campanha de 10 anos da GiOlaser", //
     link: 'https://bmouseproductions.com/view/atendimento/post_type_case/giolaser/'
-  },
-  {
-    img: agroecologia,
-    title: "Patense Agroecologia",
-    text: "Lançamento dos biofertilizantes mais inovadores do mercado",
-    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/agroecologia/'
   },
   {
     img: sorridents,
     title: "Sorridents",
-    text: "Produção de conteúdo audiovisual",
+    text: "Produção de conteúdo audiovisual", //
     link: 'https://bmouseproductions.com/view/atendimento/post_type_case/sorridents/'
   },
   {
-    img: Patense,
-    title: "Grupo Patense",
-    text: "Campanha “O poder da transformação”",
-    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/patense/'
+    img: draElisangela,
+    title: "Dra. Elisângela",
+    text: "",
+    link: ''
+  },
+  {
+    img: draRenata,
+    title: "Dra. Renata",
+    text: "",
+    link: ''
+  },
+  {
+    img: mid,
+    title: "Medic Imagens Diagnósticos",
+    text: "",
+    link: ''
+  },
+  {
+    img: olharCerto,
+    title: "Olhar Certo",
+    text: "",
+    link: ''
   },
 ];
 

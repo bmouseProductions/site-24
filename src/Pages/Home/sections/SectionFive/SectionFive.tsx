@@ -60,7 +60,7 @@ export default function SectionFive(){
     const slideCount = slideContent.length;
     return (
         
-        <section className=" md:mb-[100px] lg:mb-[150px] max-w-screen ">
+        <section className="max-w-[1536px] mx-auto md:mb-[100px] lg:mb-[150px] max-w-screen ">
             <h1 className="mb-10 font-tittle lg:!text-[200px]  text-center">
                 nossos clientes
             </h1>

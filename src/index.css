@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: delligual;
-    src: url(./assets/fonts/dellingual-webfont.woff2);
+    font-family: franieExtraBold;
+    src: url(./assets/fonts/FRANIE-EXTRABOLD.OTF);
 }
 
 @font-face {
-    font-family: meutas-light;
-    src: url(./assets/fonts/Meutas-Light.otf);
+    font-family: franieRegular;
+    src: url(./assets/fonts/FRANIE-REGULAR.OTF);
 }
 
 @font-face {
-    font-family: meutas-medium;
-    src: url(./assets/fonts/Meutas-Medium.otf);
+    font-family: franieSemiBold;
+    src: url(./assets/fonts/FRANIE-SEMIBOLD.OTF);
 }
 
 @font-face {
@@ -23,15 +23,15 @@
 }
 
 h2{
-    font-family: meutas-medium;
+    font-family: franieSemiBold;
 }
 
 .font-montserrat{
     font-family: montserrat-semibold;
 }
 
-.font-meutas-medium{
-    font-family: meutas-medium;
+.font-franieSemiBold{
+    font-family: franieSemiBold;
 }
 
 *{
@@ -39,7 +39,7 @@ h2{
     padding: 0;
     box-sizing: border-box;
     color: #F4F4F4;
-    font-family: meutas-light;
+    font-family: franieRegular;
     font-weight: 300;
     scroll-behavior: smooth;
 }
@@ -67,32 +67,23 @@ border-radius: 8px;
 
 /* FONT TITLE */
 .font-tittle{
-    font-family: delligual;
-    font-size: 100px;
+    font-family: franieExtraBold;
+    font-size: 40px;
     text-transform: uppercase;
     line-height: 100%;
 }
 
 .font-tittle2{
-    font-family: delligual;
-    font-size: 80px;
+    font-family: franieExtraBold;
+    font-size: 60px;
     text-transform: uppercase;
     line-height: 100%;
 }
 
 @media (min-width:768px) {
     .font-tittle2{
-        font-family: delligual;
-        font-size: 100px;
-        text-transform: uppercase;
-        line-height: 100%;
-    }
-}
-
-@media (min-width:1024px) {
-    .font-tittle{
-        font-family: delligual;
-        font-size: 100px;
+        font-family: franieExtraBold;
+        font-size: 60px;
         text-transform: uppercase;
         line-height: 100%;
     }
@@ -100,8 +91,8 @@ border-radius: 8px;
 
 @media (min-width:1440px) {
     .font-tittle{
-        font-family: delligual;
-        font-size: 150px;
+        font-family: franieExtraBold;
+        font-size: 100px;
         text-transform: uppercase;
         line-height: 100%;
     }

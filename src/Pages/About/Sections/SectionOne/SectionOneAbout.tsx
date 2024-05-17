@@ -6,18 +6,33 @@ export function SectionOne(){
     return(
         <section className="md:pt-10 mx-auto bg-sobre ">
             <Header />
-            <div className="container px-5 lg:px-10 xl:px-20 mx-auto flex flex-col lg:flex-row lg:justify-around">
+            <div className="container px-5 lg:px-10 xl:px-20 mx-auto flex flex-col lg:flex-row lg:gap-10 lg:justify-around">
                 <div className="mt-10 flex flex-col gap-5 xl:gap-7 lg:max-w-[450px] xl:max-w-[590px] ">
-                    <h1 className="font-tittle xl:!text-[200px] ">
+                    <h1 className="font-tittle ">
                         Quem somos?
                     </h1>
                     <p>
-                        Ao longo do tempo, a BMouse consolidou-se como uma força inovadora, indo além dos limites convencionais do marketing. 
-                        Sob a direção de Tom Gonçalves e Roberta Almeida, a BMouse é um projeto que se transformou em realidade. Desde então, temos transformado a realidade de dezenas de clientes que confiaram suas ideias e negócios em nossas mãos.
+                        A BMouse Productions é uma agência de marketing e produção audiovisual que se tornou referência no 
+                        Brasil e no mundo. Nascida nos Estados Unidos, a BMouse migrou para o Brasil há quatro anos e, desde 
+                        então, vem crescendo e se expandindo, atuando em quase todos os estados do país. Nossa trajetória de 
+                        sucesso é marcada por bilhões de acessos em conteúdos produzidos, destacando-nos na criação de campanhas 
+                        estratégicas e comerciais.
                     </p>
 
-                    <p>
-                        A BMouse vai além de ser apenas uma agência de marketing, nós somos verdadeiros experts na criação de campanhas que não apenas buscam resultados, mas também se destacam como obras estratégicas. Com uma equipe composta por um time de especialistas, nós somos profissionais da arte de criar!
+                    <p className="p-3 rounded-xl bg-[#6100fc3e] ">
+                        <strong className="font-bold text-xl">Missão:</strong> <br />
+                        Nossa missão é transformar a vida dos profissionais de saúde através do nosso know-how e expertise em 
+                        marketing e construção de carreira. Oferecemos caminhos comerciais que permitem a esses profissionais 
+                        planejarem suas carreiras de maneira eficaz, ajudando-os a encontrar um ponto de equilíbrio em suas 
+                        vidas mais rapidamente.
+                    </p>
+
+                    <p className="p-3 rounded-xl bg-[#6100fc3e] ">
+                        <strong className="font-bold text-xl">Visão:</strong> <br />
+                        Na BMouse Productions, estamos comprometidos em oferecer o melhor para nossos clientes, seja através de 
+                        campanhas criativas e eficazes, produções audiovisuais de alta qualidade ou estratégias de marketing 
+                        inovadoras. Estamos sempre buscando superar expectativas e elevar o padrão da indústria em tudo o que 
+                        fazemos.
                     </p>
                 </div>
 
