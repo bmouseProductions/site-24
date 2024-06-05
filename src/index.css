@@ -34,6 +34,10 @@ h2{
     font-family: franieSemiBold;
 }
 
+.font-franiExtraBold{
+    font-family: franieExtraBold;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -45,7 +49,7 @@ h2{
 }
 
 html, body{
-    background-color: #0F182D;
+    background-color: #01295b;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -92,14 +96,14 @@ border-radius: 8px;
 @media (min-width:1440px) {
     .font-tittle{
         font-family: franieExtraBold;
-        font-size: 100px;
+        font-size: 60px;
         text-transform: uppercase;
         line-height: 100%;
     }
 }
 
 /* BACKGROUNDS */
-
+/*
 .bg-section-one {
     background: url(./assets/images/backgrounds/bg-section-1.svg);
     background-repeat: no-repeat;
@@ -181,39 +185,37 @@ border-radius: 8px;
     width: 100%;
     background-size: cover;
 }
-
-.bg-agromouse, .bg-story{
+*/
+.bg-saudeEmpreende, .bg-cameraHome{
     background-color: #0000008e;
     padding-bottom: 15px;
 }
 
-
-
 @media (min-width:1024px) {
 
-    .bg-agromouse {
+    .bg-saudeEmpreende {
         padding-bottom: 0px;
-        background: url(./assets/images/Home/agromouse.webp);
+        background: url(./assets/images/Home/bannerSE.webp);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
-    .bg-story {
+    .bg-cameraHome {
         padding-bottom: 0px;
-        background: url(./assets/images/Home/audiovisual-icon.webp);
+        background: url(./assets/images/Home/cameraHome.webp);
         background-repeat: no-repeat;
-        background-position: center right;
+        background-position: center center;
         background-size: 100%;
     }
 
 }
-  
+
 
   
 .efeito-vidro {
-    border-radius: 29px;
-    background: rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.625);
     backdrop-filter: blur(7.5px);
 }
 
