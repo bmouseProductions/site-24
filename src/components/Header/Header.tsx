@@ -9,7 +9,7 @@ import logo from '../../assets/images/logos/logo-bmouse.svg'
 function NavList() {
   return (
     <ul className="pt-5  flex flex-col md:flex-row md:items-center gap-3 xl:gap-5  ">
-      <NavLink to="/sobre" className="text-sm xl:text-base hover:!text-[#4bbfed] !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 transition-all">
+      <NavLink to="/sobre" className="text-sm xl:text-base hover:!text-black !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 transition-all">
         Sobre
       </NavLink>
 

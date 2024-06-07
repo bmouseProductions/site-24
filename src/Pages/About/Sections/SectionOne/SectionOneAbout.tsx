@@ -1,6 +1,7 @@
 import tom from "../../../../assets/images/About/tom.webp"
 import Header from "../../../../components/Header/Header"
 import SliderColaborador from "../../../../components/sliders/SliderColaboradores"
+import title from '../../../../assets/images/About/quemSomos-title.webp'
 
 export function SectionOne(){
     return(
@@ -8,9 +9,7 @@ export function SectionOne(){
             <Header />
             <div className="container px-5 lg:px-10 xl:px-20 mx-auto flex flex-col lg:flex-row lg:gap-10 lg:justify-around">
                 <div className="mt-10 flex flex-col gap-5 xl:gap-7 lg:max-w-[450px] xl:max-w-[590px] ">
-                    <h1 className="font-tittle ">
-                        Quem somos?
-                    </h1>
+                    <img src={title} alt="titulo quem somos nós" />
                     <p>
                         A BMouse Productions é uma agência de marketing e produção audiovisual que se tornou referência no 
                         Brasil e no mundo. Nascida nos Estados Unidos, a BMouse migrou para o Brasil há quatro anos e, desde 
@@ -19,7 +18,7 @@ export function SectionOne(){
                         estratégicas e comerciais.
                     </p>
 
-                    <p className="p-3 rounded-xl bg-[#6100fc3e] ">
+                    <p className="rounded-xl text-white">
                         <strong className="font-bold text-xl">Missão:</strong> <br />
                         Nossa missão é transformar a vida dos profissionais de saúde através do nosso know-how e expertise em 
                         marketing e construção de carreira. Oferecemos caminhos comerciais que permitem a esses profissionais 
@@ -27,7 +26,7 @@ export function SectionOne(){
                         vidas mais rapidamente.
                     </p>
 
-                    <p className="p-3 rounded-xl bg-[#6100fc3e] ">
+                    <p className="rounded-xl text-white">
                         <strong className="font-bold text-xl">Visão:</strong> <br />
                         Na BMouse Productions, estamos comprometidos em oferecer o melhor para nossos clientes, seja através de 
                         campanhas criativas e eficazes, produções audiovisuais de alta qualidade ou estratégias de marketing 
@@ -36,8 +35,8 @@ export function SectionOne(){
                     </p>
                 </div>
 
-                <div className="flex justify-center lg:justify-end mt-10 md:mt-0">
-                    <img src={tom} alt="" className="max-h-[550px] lg:max-h-[850px] " />
+                <div className="flex justify-center items-center lg:justify-end mt-10 md:mt-0">
+                    <img src={tom} alt="" className="max-h-[550px] lg:max-h-[770px] " />
                 </div>
             </div>
 
