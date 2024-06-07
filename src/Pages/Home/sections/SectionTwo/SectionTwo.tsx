@@ -1,4 +1,5 @@
 
+
 export const SectionTwo = () => {
   return (
     <section className="bg-blur-left  ">

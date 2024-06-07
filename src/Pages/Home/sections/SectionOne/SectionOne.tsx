@@ -1,7 +1,7 @@
 import Header from "../../../../components/Header/Header";
 import banner from '../../../../assets/images/Home/banner.svg'
-import bannerSE from '../../../../assets/images/Home/bannerSE.webp'
-import cameraHome from '../../../../assets/images/Home/cameraHome.webp'
+import bannerSE from '../../../../assets/images/Home/SectionOne/bannerSE.webp'
+import cameraHome from '../../../../assets/images/Home/SectionOne/cameraHome.webp'
 
 // interface ModalProps {
 //   isOpen: boolean;

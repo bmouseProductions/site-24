@@ -1,3 +1,7 @@
+import SliderImagem from "../../../../components/sliders/SliderClientes";
+
+import logo from '../../../../assets/images/Home/SectionOne/logoBmouseSE.webp'
+import nossosClientes from '../../../../assets/images/Home/SectionOne/nossosClientes.webp'
 
 import draelis from "../../../../assets/images/logos-clientes/draelis.svg";
 import farol from "../../../../assets/images/logos-clientes/farol.svg";
@@ -22,7 +26,6 @@ import aligner from "../../../../assets/images/logos-clientes/newaligner.svg";
 import salus from "../../../../assets/images/logos-clientes/salus.svg";
 import amo from "../../../../assets/images/logos-clientes/amovacinas.svg";
 import agro from "../../../../assets/images/logos-clientes/agroecologia.svg";
-import SliderImagem from "../../../../components/sliders/SliderClientes";
 
 
 
@@ -61,9 +64,19 @@ export default function SectionFive(){
     return (
         
         <section className="max-w-[1536px] mx-auto md:mb-[100px] lg:mb-[150px] max-w-screen ">
-            <h1 className="mb-10 font-tittle lg:!text-[200px]  text-center">
-                nossos clientes
-            </h1>
+            
+            <div className="w-full flex flex-col items-center">
+                <img 
+                    src={logo} 
+                    alt="logo bmouse Saúde Empreende" 
+                    className="w-[50px] lg:w-[80px] mb-10 "
+                />
+                <img 
+                    src={nossosClientes} 
+                    alt="imagem do titulo nossos clientes" 
+                    className="mb-14 max-w-[300px] md:max-w-[500px] lg:max-w-none"
+                />
+            </div>
 
             <SliderImagem slideContent={slideContent} slideCount={slideCount} />
         </section>

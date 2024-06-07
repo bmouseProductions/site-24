@@ -1,5 +1,4 @@
 import logo from '../../assets/images/logos/logo-bmouse.svg'
-import Border from '../../assets/images/border.svg'
 
 import { Bubble } from "@typebot.io/react";
 
@@ -41,7 +40,9 @@ export default function Footer(){
                     </a>
                 </div>
             </div>
-            <img src={Border} alt="" className="w-full my-20" />
+
+            <div className="container my-20 mx-auto w-full max-w-[90%] md:max-w-[728px] lg:max-w-[944px] xl:max-w-[1120px] 2xl:max-w-[1376px] h-[3px] bg-[#0fff94] rounded-xl" />
+
             <p className='text-xl text-center container lg:px-10 xl:px-20 mx-auto mb-14'>
                 <strong>Copyright</strong> © 2024 - Bmouse Productions
             </p>

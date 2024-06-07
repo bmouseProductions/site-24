@@ -38,7 +38,7 @@ function NavList() {
       
       <a
         href="https://bmouseproductions.com/view/atendimento/"
-        className=" px-5 py-3 text-white text-lg rounded-[30px] bg-[#760BFF] hover:bg-[#0f182d] transition-all shadow-botao shadow-[#760BFF]"
+        className=" px-5 py-3 text-black text-lg rounded-[30px] bg-[#0fff94] hover:bg-white transition-all shadow-xl hover:shadow-none"
       >
         Fale conosco  
       </a>

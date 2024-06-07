@@ -1,5 +1,7 @@
 import {Botao} from '../../../../components/BotaoEscuro/Botao'
 
+import projetos from '../../../../assets/images/Home/SectionFour/nossos-projetos.webp'
+
 import giolaser from "../../../../assets/images/Home/SectionFour/giolaser.webp";
 import sorridents from "../../../../assets/images/Home/SectionFour/sorridents.webp";
 import draElisangela from "../../../../assets/images/Home/SectionFour/draElisangela.webp";
@@ -52,17 +54,17 @@ export const SectionFour = () => {
     <section className="bg-blur-left ">
       <div className="container px-5 lg:px-10 xl:px-20 mx-auto flex flex-col gap-14 lg:gap-20">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-5 text-white">
-          
-            <h1 className="w-full font-tittle !text-[95px] md:!text-[150px] xl:!text-[200px] ">
-              Nossos projetos
-            </h1>
-        
-            <p className='lg:!max-w-[400px] xl:!max-w-[500px] '>
+          <img src={projetos} alt="imagem com o titulo nossos projetos" />
+          <div className='lg:ml-10 flex flex-col gap-3'>
+            <p>
               Ao longo da nossa trajetória, participamos da criação e execução de diversos projetos. 
               São milhões de visualizações acumuladas nas redes sociais e dezenas de clientes satisfeitos 
-              com a nossa performance e comprometimento com a excelência. Confira alguns trabalhos:
+              com a nossa performance e comprometimento com a excelência.
             </p>
-          
+            <p>
+              Confira alguns de nossos trabalhos e veja como podemos ajudar a elevar a visibilidade no setor:
+            </p>
+          </div>
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10">
           {info.map((item, index) => {
@@ -98,7 +100,6 @@ export const SectionFour = () => {
       <div className='w-[225px] mt-12 mx-auto'>
           <Botao 
             text='Saiba mais' 
-            tipo='tipo2' 
             link='https://bmouseproductions.com/view/atendimento/nossos-trabalhos/'
           />
         

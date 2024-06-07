@@ -18,16 +18,16 @@
 }
 
 @font-face {
-    font-family: montserrat-semibold;
-    src: url(./assets/fonts/Montserrat-SemiBold.ttf);
+    font-family: franieLight;
+    src: url(./assets/fonts/FRANIE-LIGHT.OTF);
 }
 
 h2{
     font-family: franieSemiBold;
 }
 
-.font-montserrat{
-    font-family: montserrat-semibold;
+.font-franieLight{
+    font-family: franieLight;
 }
 
 .font-franieSemiBold{
@@ -49,7 +49,7 @@ h2{
 }
 
 html, body{
-    background-color: #01295b;
+    background-image: linear-gradient( #004EBF, #00295B);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -195,7 +195,7 @@ border-radius: 8px;
 
     .bg-saudeEmpreende {
         padding-bottom: 0px;
-        background: url(./assets/images/Home/bannerSE.webp);
+        background: url(./assets/images/Home/SectionOne/bannerSE.webp);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -203,7 +203,7 @@ border-radius: 8px;
 
     .bg-cameraHome {
         padding-bottom: 0px;
-        background: url(./assets/images/Home/cameraHome.webp);
+        background: url(./assets/images/Home/SectionOne/cameraHome.webp);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 100%;
@@ -230,7 +230,7 @@ border-radius: 8px;
 }
 
 .shadow-card:hover{
-    box-shadow: 0 0 80px 30px #760bff;
+    box-shadow: 0 0 60px 20px #0fff9395;
 }
 
 .shadow-card img{
