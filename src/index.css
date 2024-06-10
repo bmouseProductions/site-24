@@ -211,6 +211,54 @@ border-radius: 8px;
 
 }
 
+.bg-services{
+    background-image: url(./assets/images/backgrounds/logoSaude.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    background-color: #fff;
+}
+
+@media screen and (min-width:768px){
+    .bg-services{
+        background-image: url(./assets/images/backgrounds/logoSaude.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: 10% 50%;
+        background-color: #fff;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .bg-services{
+        background-image: url(./assets/images/backgrounds/logoSaude.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: 10% 50%;
+        background-color: #fff;
+    }
+}
+
+@media screen and (min-width: 1650px){
+    .bg-services{
+        background-image: url(./assets/images/backgrounds/logoSaude.png);
+        background-size: 20%;
+        background-repeat: no-repeat;
+        background-position: 25% 50%;
+        background-color: #fff;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    .bg-services{
+        background-image: url(./assets/images/backgrounds/logoSaude.png);
+        background-size: 20%;
+        background-repeat: no-repeat;
+        background-position: 30% 50%;
+        background-color: #fff;
+    }
+}
+
 
   
 .efeito-vidro {

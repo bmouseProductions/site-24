@@ -8,7 +8,7 @@ import logo from '../../assets/images/logos/logo-bmouse.svg'
  
 function NavList() {
   return (
-    <ul className="pt-5  flex flex-col md:flex-row md:items-center gap-3 xl:gap-5  ">
+    <ul className="pt-5  flex flex-col lg:flex-row lg:items-center gap-3 xl:gap-5  ">
       <NavLink to="/sobre" className="text-sm xl:text-base hover:!text-black !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 transition-all">
         Sobre
       </NavLink>
@@ -64,12 +64,12 @@ export default function Header() {
           <img src={logo} alt="" className="w-[200px] md:w-[150px] lg:w-[200px] " />
         </NavLink>
 
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <NavList />
         </div>
         
         <button
-            className="md:hidden"
+            className="lg:hidden"
             onClick={() => setOpenNav(!openNav)}
         >
           { openNav ? 
