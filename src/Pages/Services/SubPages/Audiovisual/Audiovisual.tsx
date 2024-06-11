@@ -11,7 +11,7 @@ export default function AudiovisualService(){
             <SectionOneServices 
                 banner={banner}
                 title={title} 
-                text="" 
+                text="Uma história, muitas vezes, é melhor contada em formato de imagens. Um vídeo, então, tem o potencial ainda maior de atingir pessoas, transmitir mensagens e engajar o público-alvo para determinados objetivos. Por isso, não nos cansamos de investir na nossa capacidade criativa e técnica de aprimoramento desse setor." 
             />
             <SectionTwo />
             {/* <SectionThree /> */}

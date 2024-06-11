@@ -11,7 +11,7 @@ export default function AdsService(){
             <SectionOneServices 
                 banner={banner}
                 title={title} 
-                text="" 
+                text="O tráfego orgânico hoje já não entrega o conteúdo das empresas da forma que deveria, tanto no Google quanto nas redes sociais. O tráfego pago, comumente conhecido como anúncios patrocinados, é o modo mais eficaz de alcançar os seus potenciais clientes. Através das plataformas de anúncios patrocinados podemos atingir o seu público-alvo e convertê-lo em clientes reais, de forma objetiva e eficaz." 
             />
             <SectionTwo />
             {/* <SectionThree /> */}

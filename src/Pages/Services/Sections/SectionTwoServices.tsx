@@ -1,11 +1,9 @@
-import branding from "../../../assets/images/Services/SubPages/Branding/branding-icon.webp";
 import marketing from "../../../assets/images/Services/SubPages/marketing/marketing-icon.webp";
 import endomarketing from "../../../assets/images/Services/SubPages/endomarketing/endomarketing-icon.webp";
 import audiovisual from "../../../assets/images/Services/SubPages/audiovisual/audiovisual-icon.webp";
 import ads from "../../../assets/images/Services/SubPages/ads/ads-icon.webp";
 import programacao from "../../../assets/images/Services/SubPages/Programação/programacao-icon.webp";
 import acessoria from "../../../assets/images/Services/SubPages/acessoria/acessoria-icon.webp";
-import midia from "../../../assets/images/Services/SubPages/midia/midia-icon.webp";
 
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -14,12 +12,6 @@ import midia from "../../../assets/images/Services/SubPages/midia/midia-icon.web
 
 export default function SectionTwo(){
     const info = [
-        {
-          img: branding,
-          title: "BRANDING",
-          text: "A sua marca merece um visual impactante e de respeito.",
-          link: '/servicos/branding'
-        },
         {
           img: marketing,
           title: "MARKETING",
@@ -55,12 +47,6 @@ export default function SectionTwo(){
             title: "ASSESSORIA",
             text: "Tenha a representação e opinião de especialistas.",
             link: '/servicos/acessoria'
-          },
-          {
-            img: midia,
-            title: "GRANDE MÍDIA",
-            text: "Leve seu projeto às grandes mídias com a nossa ajuda.",
-            link: '/servicos/midia'
           },
     ];
     return (

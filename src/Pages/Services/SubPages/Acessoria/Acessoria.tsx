@@ -11,7 +11,7 @@ export default function AcessoriaService(){
             <SectionOneServices 
                 banner={banner}
                 title={title} 
-                text="" 
+                text="Networking e exposição de marca para as grandes massas ou público especializado fazem parte da nossa atividade. Utilizamos diversos mecanismos próprios para facilitar grandes negociações, posicionamento de mercado e valuation de marca." 
             />
             <SectionTwo />
             {/* <SectionThree /> */}

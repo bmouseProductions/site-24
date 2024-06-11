@@ -11,7 +11,8 @@ export default function MarketingService(){
             <SectionOneServices 
                 banner={banner}
                 title={title} 
-                text="" 
+                mkt={true}
+                text="A internet: a mais cobiçada esfera de comunicação atual, onde todos vislumbram causar impacto. O mundo gira em torno dos smartphones, que se tornaram grandes ferramentas e proporcionam oportunidades gigantescas de crescimento para qualquer negócio. Somos especialistas em transformar os seus objetivos, sonhos e desejos em realidade através desse universo que desbravaremos juntos." 
             />
             <SectionTwo />
             {/* <SectionThree /> */}
