@@ -1,9 +1,9 @@
 import SectionOneServices from "../../../../components/SectionOneServices/SectionOneServices";
 import SectionTwo from "./Sections/SectionTwo/SectionTwoAds";
-import SectionFour from "./Sections/SectionFour/SectionFourAds";
 
 import banner from '../../../../assets/images/Services/Banners/banner-ads.webp'
 import title from '../../../../assets/images/Services/Titles/ads-title.webp'
+import Decolar from "../../../../components/Decolar/Decolar";
 
 export default function AdsService(){
     return (
@@ -15,7 +15,8 @@ export default function AdsService(){
             />
             <SectionTwo />
             {/* <SectionThree /> */}
-            <SectionFour />
+            {/* <SectionFour /> */}
+            <Decolar />
         </>
     )
 }

@@ -326,3 +326,10 @@ hr {
 button.botaoClose:hover svg path {
     color: red;
 }
+
+
+.bg-cursiva{
+    background-image: url(./assets//images/Home/SectionTwo/bmouse-cursivo.webp);
+    background-repeat: no-repeat;
+    background-position: right center;
+}

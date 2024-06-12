@@ -1,9 +1,9 @@
 import SectionOneServices from "../../../../components/SectionOneServices/SectionOneServices";
 import SectionTwo from "./Sections/SectionTwo/SectionTwoAcessoria";
-import SectionFour from "./Sections/SectionFour/SectionFourAcessoria";
 
 import banner from '../../../../assets/images/Services/Banners/banner-assessoria.webp'
 import title from '../../../../assets/images/Services/Titles/acessoria-title.webp'
+import Decolar from "../../../../components/Decolar/Decolar";
 
 export default function AcessoriaService(){
     return (
@@ -15,7 +15,8 @@ export default function AcessoriaService(){
             />
             <SectionTwo />
             {/* <SectionThree /> */}
-            <SectionFour />
+            {/* <SectionFour /> */}
+            <Decolar />
         </>
     )
 }
