@@ -1,6 +1,5 @@
 import camera from '../../../../assets/images/About/camera.webp'
 import logo from '../../../../assets/images/logos/logo-colorida.svg'
-import border from '../../../../assets/images/border.svg'
 
 export default function SectionTwo(){
     return (
@@ -10,7 +9,9 @@ export default function SectionTwo(){
                     <img className='max-h-[400px] lg:max-h-[600px] xl:max-h-[800px] ' src={camera} alt="" />
                     <div className='mt-10 md:pr-5 lg:pr-10 xl:pr-20 flex flex-col gap-5 '>
                         <img src={logo} alt="" className='mx-auto max-w-[300px] md:max-w-[250px] lg:max-w-[300px]' />
-                        <img src={border} className=' ' alt="" />
+
+                        <div className="container mx-auto w-full h-[3px] bg-[#0fff94] rounded-xl" />
+
                         <div className='w-[90%] mx-auto flex flex-col gap-5'>
                             <p className='md:text-sm lg:text-base'>
                                 Os Studios BMouse são o nosso maior diferencial. Nosso espaço é equipado com tecnologia de ponta 

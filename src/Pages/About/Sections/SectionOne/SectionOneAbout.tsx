@@ -5,9 +5,10 @@ import title from '../../../../assets/images/About/quemSomos-title.webp'
 
 export function SectionOne(){
     return(
-        <section className="md:pt-10 mx-auto bg-sobre ">
+        <div className="md:pt-10 mx-auto bg-sobre ">
             <Header />
-            <div className="container px-5 lg:px-10 xl:px-20 mx-auto flex flex-col lg:flex-row lg:gap-10 lg:justify-around">
+            
+            <section className="container px-5 lg:px-10 xl:px-20 mx-auto flex flex-col lg:flex-row lg:gap-10 lg:justify-around">
                 <div className="mt-10 flex flex-col gap-5 xl:gap-7 lg:max-w-[450px] xl:max-w-[590px] ">
                     <img src={title} alt="titulo quem somos nós" />
                     <p>
@@ -38,12 +39,12 @@ export function SectionOne(){
                 <div className="flex justify-center items-center lg:justify-end mt-10 md:mt-0">
                     <img src={tom} alt="" className="max-h-[550px] lg:max-h-[770px] " />
                 </div>
-            </div>
+            </section>
 
             <div className="container mt-20 px-5 lg:px-10 xl:px-20 mx-auto">
                 <SliderColaborador />
             </div>
             
-        </section>
+        </div>
     )
 }

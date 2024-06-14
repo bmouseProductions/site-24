@@ -1,5 +1,4 @@
-import banner from '../../../../../../assets/images/Services/SubPages/Ads/sectionTwo-ads.webp'
-import border from '../../../../../../assets/images/border.svg'
+import banner from '../../../../../../assets/images/Services/SubPages/Ads/sectionTwo-ads.webp' 
 
 import corsiva from '../../../../../../assets/images/corsiva.png'
 
@@ -27,7 +26,7 @@ export default function SectionTwo(){
                         />
                     </div>
 
-                    <img src={border} className=' ' alt="" />
+                    <div className="container mx-auto w-full h-[3px] bg-[#0fff94] rounded-xl" />
 
                     <div className='w-[90%] mx-auto flex flex-col gap-5 mb-10'>
                         <p className='md:text-sm lg:text-base'>

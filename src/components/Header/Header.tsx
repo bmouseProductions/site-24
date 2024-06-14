@@ -8,29 +8,33 @@ import logo from '../../assets/images/logos/logo-bmouse.svg'
  
 function NavList() {
   return (
-    <ul className="pt-5  flex flex-col lg:flex-row lg:items-center gap-3 xl:gap-5  ">
-      <NavLink to="/sobre" className="text-sm xl:text-base hover:!text-black !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 transition-all">
+    <ul className="pt-5 xl:pt-0 flex flex-col xl:flex-row xl:items-center gap-3 text-sm ">
+      <NavLink to="/sobre" className=" hover:!text-black !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 ">
         Sobre
       </NavLink>
 
-      <NavLink to="/servicos/audiovisual" className="text-sm xl:text-base hover:!text-[#4bbfed] !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 transition-all">
+      <NavLink to="/servicos/audiovisual" className=" hover:!text-black !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 ">
         Studios Bmouse
       </NavLink>
 
       <a 
         href="https://bmouseproductions.com/view/atendimento/nossos-trabalhos/"
-        className="text-sm xl:text-base hover:!text-[#4bbfed] !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 transition-all"
+        className=" hover:!text-black !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 "
       >
         Nossos trabalhos
       </a>
 
-      <NavLink to="/servicos" className="text-sm xl:text-base hover:!text-[#4bbfed] !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 transition-all">
+      <NavLink to="/servicos" className=" hover:!text-black !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 ">
         Serviços
+      </NavLink>
+
+      <NavLink to="/aventuras" className=" hover:!text-black !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 ">
+        Outras Aventuras
       </NavLink>
 
       <a 
         href="https://bmouseproductions.com/view/atendimento/trabalhe-conosco/"
-        className="text-sm xl:text-base hover:!text-[#4bbfed] !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 transition-all"
+        className=" hover:!text-black !font-montserrat cursor-pointer hover:underline decoration-white underline-offset-8 "
       >
         Trabalhe conosco
       </a>
@@ -38,7 +42,7 @@ function NavList() {
       
       <a
         href="https://bmouseproductions.com/view/atendimento/"
-        className=" px-5 py-3 text-black text-lg rounded-[30px] bg-[#0fff94] hover:bg-white transition-all shadow-xl hover:shadow-none"
+        className="w-full max-w-[170px] px-5 py-3 text-black text-center rounded-[30px] bg-[#0fff94] hover:bg-white transition-all shadow-xl hover:shadow-none"
       >
         Fale conosco  
       </a>
@@ -57,19 +61,19 @@ export default function Header() {
   }, []);
  
   return (
-    <Navbar className="pt-5 mx-auto max-w-[1200px] px-5 py-5 md:pb-10 lg:pb-20 bg-transparent rounded-none border-none" placeholder="">
+    <Navbar className="pt-5 mx-auto max-w-[1300px] px-5 py-5 md:pb-10 lg:pb-20 bg-transparent rounded-none border-none" placeholder="">
       <div className="flex items-center justify-between text-blue-gray-900">
 
-        <NavLink to="/" className=" cursor-pointer">
+        <NavLink to="/" className="xl:w-1/3 cursor-pointer">
           <img src={logo} alt="" className="w-[200px] md:w-[150px] lg:w-[200px] " />
         </NavLink>
 
-        <div className="hidden lg:block">
+        <div className="hidden xl:block w-full">
           <NavList />
         </div>
         
         <button
-            className="lg:hidden"
+            className="xl:hidden"
             onClick={() => setOpenNav(!openNav)}
         >
           { openNav ? 

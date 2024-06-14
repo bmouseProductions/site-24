@@ -18,6 +18,7 @@ import AcessoriaService from './Pages/Services/SubPages/Acessoria/Acessoria';
 
 import Footer from './components/Footer/Footer';
 import BackToTop from './components/BackToTop/BackToTop';
+import Aventuras from './Pages/Aventuras/Aventuras';
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -34,6 +35,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
             <Route path="/servicos/ads" element={<AdsService />} />
             <Route path="/servicos/programacao" element={<ProgramaçãoService />} />
             <Route path="/servicos/acessoria" element={<AcessoriaService />} />
+          <Route path="/aventuras" element={ <Aventuras /> } />
           <Route path="/*" element={<ErrorPage />} />
         </Routes>
         <BackToTop/>
