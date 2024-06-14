@@ -39,7 +39,7 @@ export default function SectionTwo(){
         {
           img: programacao,
           title: "PROGRAMAÇÃO",
-          text: "Automatize seus processos e cria uma presença virtual de respeito.",
+          text: "Automatize seus processos e crie uma presença virtual de respeito.",
           link: '/servicos/programacao'
         },
         {
