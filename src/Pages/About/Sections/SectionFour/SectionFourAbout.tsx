@@ -21,8 +21,8 @@ export default function SectionFour(){
                 </li>
 
                 <li>
-                  Clientes Diversificados: Nossa carteira de clientes inclui profissionais da saúde, clínicas, hospitais e 
-                  franquias de saúde;
+                  Clientes Diversificados: Nossa carteira de clientes inclui profissionais da saúde, clínicas, 
+                  hospitais e franquias de saúde;
                 </li>
 
                 <li>

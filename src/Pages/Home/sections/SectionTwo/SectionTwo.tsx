@@ -25,7 +25,10 @@ export const SectionTwo = () => {
           </div>
           
           <p className="text-white w-full">
-            Nós transformamos o marketing médico! Com expertise, estudos detalhados, uma equipe qualificada e tecnologia de ponta, estamos redefinindo a forma de conectar esse setor. Nossa missão é elevar o patamar do marketing médico e construir um novo cenário para a saúde na era digital, aproximando as pessoas e auxiliando na construção de carreira desses profissionais.
+            Nós transformamos o Marketing Médico! Com expertise, estudos detalhados, uma equipe qualificada e tecnologia de ponta, 
+            estamos redefinindo a forma de conectar esse setor. Nossa missão é elevar o patamar do Marketing Médico e construir 
+            um novo cenário para a saúde na era digital, aproximando as pessoas e auxiliando na construção de carreira desses 
+            profissionais.
           </p>
         </div>
         <iframe

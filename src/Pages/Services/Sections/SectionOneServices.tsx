@@ -11,10 +11,10 @@ export default function SectionOne(){
                     <img className="md:max-w-[80%]  "  src={title} alt="" />
 
                     <p className='max-w-[995px] md:w-[90%] '>
-                        A BMouse é especialista em marketing médico, criando conteúdos comerciais e informativos, além de um planejamento 
-                        de carreira eficiente para profissionais da saúde. Centralizamos todos os serviços essenciais para entregar o seu 
-                        sucesso comercial. Com uma equipe de profissionais para cada área, nosso time é completo. Estamos preparados para 
-                        atender sua demanda e elevar sua maneira de fazer marketing.
+                        A BMouse é especialista em Marketing Médico, criando conteúdos comerciais e informativos, além de um 
+                        planejamento de carreira eficiente para profissionais da saúde. Centralizamos todos os serviços essenciais 
+                        para entregar o seu sucesso comercial. Com uma equipe de profissionais para cada área, nosso time é completo. 
+                        Estamos preparados para atender à sua demanda e elevar sua maneira de fazer marketing.
                     </p>
                 </section>
             </div>

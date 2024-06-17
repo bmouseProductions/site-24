@@ -32,25 +32,16 @@ export default function SectionTwo(){
                     />
                 </div>
 
-                <div className='mt-5 flex flex-col lg:flex-row gap-5 text-balance'>
+                <div className='mt-5 flex flex-col gap-5'>
                     <p>
-                        Nossa missão é transformar a vida dos profissionais de saúde através do nosso know-how e expertise em 
-                        marketing e construção de carreira. Oferecemos caminhos comerciais que permitem a esses profissionais 
-                        planejar suas carreiras de maneira eficaz, ajudando-os a encontrar um ponto de equilíbrio em suas vidas 
-                        mais rapidamente.ssd Na BMouse Productions, estamos comprometidos em oferecer o melhor para nossos 
-                        clientes, seja através de campanhas criativas e eficazes, produções audiovisuais de alta qualidade ou 
-                        estratégias de marketing inovadoras. Estamos sempre buscando superar expectativas e elevar o padrão da 
-                        indústria em tudo o que fazemos.
+                        Ao longo dos últimos 8 anos, a BMouse Productions se dedicou a criar projetos e campanhas comerciais 
+                        impactantes para uma ampla variedade de setores. Com mais de 50 marcas atendidas em quase todos os 
+                        estados do Brasil, trabalhamos com segmentos como agronegócio, Direito, construção civil, indústrias 
+                        alimentícias, mercado pet, mercado financeiro, comércio, varejo, e-commerce, entre outros.
                     </p>
 
                     <p>
-                        Nossa missão é transformar a vida dos profissionais de saúde através do nosso know-how e expertise em 
-                        marketing e construção de carreira. Oferecemos caminhos comerciais que permitem a esses profissionais 
-                        planejar suas carreiras de maneira eficaz, ajudando-os a encontrar um ponto de equilíbrio em suas vidas 
-                        mais rapidamente.ssd Na BMouse Productions, estamos comprometidos em oferecer o melhor para nossos 
-                        clientes, seja através de campanhas criativas e eficazes, produções audiovisuais de alta qualidade ou 
-                        estratégias de marketing inovadoras. Estamos sempre buscando superar expectativas e elevar o padrão da 
-                        indústria em tudo o que fazemos.
+                        Confira alguns dos nossos projetos e descubra o impacto que causamos!
                     </p>
                 </div>
             </div>

@@ -98,7 +98,7 @@ export const SectionOne = () => {
                 {" "}
                 <h2 className="text-lg font-bold">Saúde Empreende</h2>
                 <p className="text-sm">
-                  A plataforma que vai inovar o jeito de fazer marketing médico!
+                  A plataforma que vai inovar o jeito de fazer Marketing Médico! 
                 </p>
               </div>
               <div>

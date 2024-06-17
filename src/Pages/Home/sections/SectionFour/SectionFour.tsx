@@ -57,12 +57,13 @@ export const SectionFour = () => {
           <img src={projetos} alt="imagem com o titulo nossos projetos" />
           <div className='lg:ml-10 flex flex-col gap-3'>
             <p>
-              Ao longo da nossa trajetória, participamos da criação e execução de diversos projetos. 
-              São milhões de visualizações acumuladas nas redes sociais e dezenas de clientes satisfeitos 
-              com a nossa performance e comprometimento com a excelência.
+              Ao longo de nossa trajetória, acumulamos uma vasta experiência na produção de conteúdos para o setor de saúde. 
+              Nossas campanhas comerciais estratégicas e materiais de alta qualidade já alcançaram milhões de visualizações nas 
+              redes sociais, conectando efetivamente o público com este importante segmento. Informamos, impactamos e emocionamos, 
+              sempre com excelência e profissionalismo.
             </p>
             <p>
-              Confira alguns de nossos trabalhos e veja como podemos ajudar a elevar a visibilidade no setor:
+              Confira alguns de nossos trabalhos e veja como podemos ajudar a elevar a visibilidade do setor:
             </p>
           </div>
         </div>

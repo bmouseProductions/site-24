@@ -20,9 +20,9 @@ export default function SectionTwo(){
                                 para os nossos clientes.
                             </p>
                             <p className='md:text-sm lg:text-base'>
-                                Aqui, transformamos sonhos em realidade e ideias em projetos profissionais e exclusivos. Com uma equipe 
-                                profissional de produtores, filmakers, editores, atores e narradores, criamos peças audiovisuais impactantes 
-                                para revolucionarem a sua marca.
+                                Aqui, transformamos sonhos em realidade e ideias em projetos profissionais e exclusivos. 
+                                Com uma equipe profissional de produtores, filmmakers, editores, atores e narradores, criamos peças 
+                                audiovisuais impactantes para revolucionarem a sua marca.
                             </p>
                             <p className="text-sm lg:text-base font-meutas-medium font-bold ">
                                 Conte com a BMouse para transformar suas histórias em verdadeiras obras de arte!

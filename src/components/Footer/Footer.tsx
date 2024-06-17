@@ -9,7 +9,7 @@ export default function Footer(){
                 <div className=' font-delligual  '>
                     <img src={logo} alt="" className='w-[180px] mb-5' />
                     <p className='md:text-base lg:text-lg'>
-                        Transforme a sua empresa com marketing de verdade. Embarque nessa jornada conosco!
+                        Somos a maior agência de Marketing Médico do Brasil. Faça parte dessa revolução na área da saúde. 
                     </p>
                 </div>
 
