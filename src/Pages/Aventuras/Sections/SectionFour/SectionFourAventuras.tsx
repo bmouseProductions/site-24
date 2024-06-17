@@ -15,64 +15,118 @@ export default function SectionFour(){
     return (
       <section className="container px-5 lg:px-10 xl:px-20 py-10 pb-20 mx-auto">
         <div className="flex flex-col md:flex-row gap-5 md:gap-0">
-          <img 
-            src={gioAventuras}
-            alt="" 
-            className="w-1/3"
-          />
+          <a 
+            href=""
+            className='w-1/3'
+          >
+            <img 
+              src={gioAventuras}
+              alt="" 
+              className="w-full"
+            />
+          </a>
+          
 
-          <img 
-            src={patenseAventuras}
-            alt="" 
-            className="w-1/3"
-          />
+          <a 
+            href=""
+            className='w-1/3'
+          >
+            <img 
+              src={patenseAventuras}
+              alt="" 
+              className="w-full"
+            />
+          </a>
+
 
           <div className='w-1/3 flex flex-col gap-5 md:gap-0'>
-            <img 
-              src={agroAventuras}
-              alt="" 
-              className=""
-            />
+            <a 
+              href=""
+              className=''
+            >
+              <img 
+                src={agroAventuras}
+                alt="" 
+                className=""
+              />
+            </a>
+            
 
-            <img 
-              src={olharAventuras}
-              alt="" 
-              className=""
-            />
+            <a 
+              href=""
+              className=''
+            >
+              <img 
+                src={olharAventuras}
+                alt="" 
+                className=""
+              />
+            </a>
+            
           </div>
         </div>
 
-        <img 
-          src={domd}
-          alt="" 
-          className="w-full"
-        />
+        <a 
+          href=""
+          className='w-1/3'
+        >
+          <img 
+            src={domd}
+            alt="" 
+            className="w-full"
+          />
+        </a>
+        
 
         <div className="flex flex-col md:flex-row-reverse gap-5 md:gap-0">
-          <img 
-            src={zoomiesAventuras}
-            alt="" 
-            className="w-1/3"
-          />
+          <a 
+            href=""
+            className='w-1/3'
+          >
+            <img 
+              src={zoomiesAventuras}
+              alt="" 
+              className=""
+            />
+          </a>
+          
 
-          <img 
-            src={cultivandoAventuras}
-            alt="" 
-            className="w-1/3"
-          />
+          <a 
+            href=""
+            className='w-1/3'
+          >
+            <img 
+              src={cultivandoAventuras}
+              alt="" 
+              className=""
+            />
+          </a>
+          
 
           <div className='w-1/3 flex flex-col gap-5 md:gap-0'>
-            <img 
-              src={morgoAventuras}
-              alt="" 
-              className=""
-            />
+            <a 
+              href=""
+              className=''
+            >
+              <img 
+                src={morgoAventuras}
+                alt="" 
+                className="w-full"
+              />
+            </a>
+            
 
-            <img 
-              src={cardealAventuras}
-              alt="" 
-              className=""
-            />
+            <a 
+              href=""
+              className=''
+            >
+              <img 
+                src={cardealAventuras}
+                alt="" 
+                className="w-full"
+              />
+            </a>
+            
           </div>
         </div>
       </section>
