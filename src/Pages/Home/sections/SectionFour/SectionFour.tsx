@@ -14,38 +14,32 @@ const info = [
   {
     img: giolaser,
     title: "GiO 10 anos!",
-    text: "Campanha de 10 anos da GiOlaser", //
-    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/giolaser/'
+    link: 'https://bmouseproductions.com/view/atendimento/case/gio-estetica-avancada/'
   },
   {
     img: sorridents,
     title: "Sorridents",
-    text: "Produção de conteúdo audiovisual", //
-    link: 'https://bmouseproductions.com/view/atendimento/post_type_case/sorridents/'
+    link: 'https://bmouseproductions.com/view/atendimento/case/sorridents/'
   },
   {
     img: draElisangela,
     title: "Dra. Elisângela",
-    text: "",
-    link: ''
+    link: 'https://bmouseproductions.com/view/atendimento/case/dra-elisangela-menezes/'
   },
   {
     img: draRenata,
     title: "Dra. Renata",
-    text: "",
-    link: ''
+    link: 'https://bmouseproductions.com/view/atendimento/case/dra-renata-caldeira/'
   },
   {
     img: mid,
     title: "Medic Imagens Diagnósticos",
-    text: "",
-    link: ''
+    link: 'https://bmouseproductions.com/view/atendimento/case/medic-imagem-diagnosticos/'
   },
   {
     img: olharCerto,
     title: "Olhar Certo",
-    text: "",
-    link: ''
+    link: 'https://bmouseproductions.com/view/atendimento/case/olhar-certo/'
   },
 ];
 
@@ -80,7 +74,7 @@ export const SectionFour = () => {
                   <div className="flex flex-col gap-2 xl:gap-3">
                     {" "}
                     <h2 className="text-xl font-bold">{item.title}</h2>
-                    <p>{item.text}</p>
+                    
                   </div>
                   <div>
                     <div

@@ -33,7 +33,7 @@ export const SectionTwo = () => {
         </div>
         <iframe
           className="w-full h-[200px] md:h-[515px] xl:h-[620px] rounded-3xl"
-          src="https://www.youtube.com/embed/tOUAucHN7QQ?si=Nc9uLH86B0GShAhF"
+          src="https://www.youtube.com/embed/9aloZiyEsOA?si=vytsTmPOjP7fTH19"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         ></iframe>

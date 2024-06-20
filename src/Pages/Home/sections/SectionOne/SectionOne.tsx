@@ -83,13 +83,19 @@ export const SectionOne = () => {
     <section className=" md:pt-10 bg-section-one mx-auto">
       <Header />
       <div className="container px-5 lg:px-10 xl:px-20 mx-auto flex gap-10 flex-col">
-        <img src={banner} alt="" />
+        
+        <img 
+          src={banner} 
+          alt=""
+          className="w-full"
+        />
+        
 
         <div className="flex flex-col lg:flex-row gap-5 xl:gap-10 justify-between items-center  ">
           
           <a 
             className="!h-full lg:!h-[330px] w-full md:max-w-[555px] lg:max-w-none lg:!w-[70%] flex flex-col items-center justify-end rounded-[10px] transition-all bg-saudeEmpreende card-empresa"
-            href="https://bmouseproductions.com/agromouse/"
+            href="https://saudeempreende.com.br/pre-lancamento/"
             target='_blank'
           >
             <img className="lg:hidden rounded-[10px] w-full" src={bannerSE}  alt="" />

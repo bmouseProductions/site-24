@@ -42,7 +42,7 @@ export default function SectionTwo(){
 
                     <p>
                         Confira alguns dos nossos projetos e descubra o impacto que causamos!
-                    </p>
+                    </p>https://www.youtube.com/embed/hh_PySplqNk?si=5eFkym2mkDggsv-I
                 </div>
             </div>
         </section>

@@ -13,7 +13,7 @@ export default function SectionOneServices( {banner, title, text, mkt, endo }:Pr
     console.log(banner)
 
     return (
-        <section className="pt-10 bg-[#052b6f] ">
+        <section className="pt-10 ">
             <Header />
             <div className="pt-10 xl:min-h-[675px] flex flex-col-reverse md:flex-row justify-center gap-5 lg:gap-10 bg-services rounded-t-[20px] ">
                 <div className={ mkt ? 'pb-10 mb-10 md:pb-0 md:mb-0' : ''}>
