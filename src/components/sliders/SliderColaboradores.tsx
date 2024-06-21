@@ -16,6 +16,8 @@ import veras from '../../assets/images/colaboradores/veras.webp'
 import jenifer from '../../assets/images/colaboradores/jenifer.webp'
 import tom from '../../assets/images/colaboradores/tom.webp'
 import roberta from '../../assets/images/colaboradores/roberta.webp'
+import wesley from '../../assets/images/colaboradores/wesley.webp'
+import joaoPaulo from '../../assets/images/colaboradores/joaoPaulo.webp'
 
 export default function SliderColaborador() {
     const settings = {
@@ -119,13 +121,23 @@ export default function SliderColaborador() {
             setor: "CEO",
             imagem: roberta
         },
+        {
+            nome: "Wesley",
+            setor: "Gestor de mídias sociais",
+            imagem: wesley
+        },
+        {
+            nome: "João Paulo",
+            setor: "Modelador 3D e Designer",
+            imagem: joaoPaulo
+        },
     ]
 
     return (
             <Slider {...settings} className="">
                 {colaboradores.map((colaborador, index) => (
-                    <div key={index} className=" !flex justify-center text-white">
-                        <img src={colaborador.imagem} className="md:max-h-[300px] rounded-[30px] " alt="" />
+                    <div key={index} className=" !flex justify-center text-white  ">
+                        <img src={colaborador.imagem} className=" md:max-h-[300px] rounded-[30px] md:mx-2 bg-[#0fff94]" alt="" />
                     </div>
                 ))}
             
