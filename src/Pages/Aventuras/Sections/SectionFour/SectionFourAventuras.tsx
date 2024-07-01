@@ -13,7 +13,7 @@ import whgAventuras from '../.././../../assets/images/Aventuras/SectionFour/whgA
 import mirianAventuras from '../.././../../assets/images/Aventuras/SectionFour/mirianAventuras.webp'
 import leoniAventuras from '../../../../assets/images/Aventuras/SectionFour/leoniAventuras.webp'
 import ljAventuras from '../../../../assets/images/Aventuras/SectionFour/ljAventuras.webp'
-import casaSaudeAventuras from '../../../../assets/images/Aventuras/SectionFour/casaAventuras.webp'
+//import casaSaudeAventuras from '../../../../assets/images/Aventuras/SectionFour/casaAventuras.webp'
 import urtAventuras from '../../../../assets/images/Aventuras/SectionFour/capaURT.webp'
 
 /*LOGOS*/
@@ -31,7 +31,7 @@ import logoWHG from '../../../../assets/images/logos-clientes/whg.png'
 import logoMiriam from '../../../../assets/images/logos-clientes/miriam.svg'
 import logoLeoni from '../../../../assets/images/logos-clientes/leoni.svg'
 import logoLJ from '../../../../assets/images/logos-clientes/lj.svg'
-import logoCasaSaude from '../../../../assets/images/logos-clientes/casaSaude.svg'
+//import logoCasaSaude from '../../../../assets/images/logos-clientes/casaSaude.svg'
 import logoURT from '../../../../assets/images/logos-clientes/URT.svg'
 
 
@@ -39,9 +39,9 @@ export default function SectionFour(){
   return (
     <section className="container px-5 lg:px-10 xl:px-20 py-10 pb-20 mx-auto">
       <div className='w-full flex flex-col md:flex-row gap-5 md:gap-0 flex-wrap'>
-        {/* WHG*/}
+        {/* NOVA GERAÇÃO*/}
         <a 
-          href="https://bmouseproductions.com/view/atendimento/case/whg/  "
+          href="https://bmouseproductions.com/view/atendimento/case/cafe-nova-geracao"
           className='w-full md:w-1/3 casesAventuras'
         >
           <img 
@@ -287,7 +287,7 @@ export default function SectionFour(){
 
         {/* WHG */}
         <a 
-          href="https://bmouseproductions.com/view/atendimento/case/bomd/"
+          href="https://bmouseproductions.com/view/atendimento/case/whg/"
           className='w-full casesAventuras'
         >
           <img 
@@ -381,7 +381,7 @@ export default function SectionFour(){
           </a>
         </div>
 
-        {/* CASA SAUDE */}
+        {/* CASA SAUDE 
         <a 
           href="https://bmouseproductions.com/view/atendimento/case/casa-centro-de-atencao-a-saude/"
           className='w-full casesAventuras'
@@ -404,10 +404,11 @@ export default function SectionFour(){
             </p>
           </div>
         </a>
+        */}
 
         {/* URT */}
         <a 
-          href="https://bmouseproductions.com/view/atendimento/case/urt-uniao-recreativa-dos-trabalhadores/"
+          href="https://bmouseproductions.com/view/atendimento/case/urt/"
           className='w-full casesAventuras'
         >
           <img 
