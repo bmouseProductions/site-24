@@ -95,7 +95,7 @@ export const SectionOne = () => {
           
           <a 
             className="!h-full lg:!h-[330px] w-full md:max-w-[555px] lg:max-w-none lg:!w-[70%] flex flex-col items-center justify-end rounded-[10px] transition-all bg-saudeEmpreende card-empresa"
-            href="https://saudeempreende.com.br/pre-lancamento/"
+            href="https://saudeempreende.com.br/"
             target='_blank'
           >
             <img className="lg:hidden rounded-[10px] w-full" src={bannerSE}  alt="" />
