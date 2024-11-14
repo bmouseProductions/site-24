@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import nalberthy from "../../assets/images/Home/SectionThree/nalberthy.webp";
 import ricardo from "../../assets/images/Home/SectionThree/ricardo.webp";
-import veras from "../../assets/images/Home/SectionThree/veras.webp";
+// import veras from "../../assets/images/Home/SectionThree/veras.webp";
 
 export default function SliderHome() {
   const settings = {

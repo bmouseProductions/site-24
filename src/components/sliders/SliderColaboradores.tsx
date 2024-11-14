@@ -5,13 +5,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 import naia from "../../assets/images/colaboradores/naia.webp";
 import bruno from "../../assets/images/colaboradores/bruno.webp";
-import leo from "../../assets/images/colaboradores/leo.webp";
-import matheus from "../../assets/images/colaboradores/matheus.webp";
+// import leo from "../../assets/images/colaboradores/leo.webp";
+// import matheus from "../../assets/images/colaboradores/matheus.webp";
 import melissa from "../../assets/images/colaboradores/melissa.webp";
 import nalberthy from "../../assets/images/colaboradores/nalberthy.webp";
 import rafael from "../../assets/images/colaboradores/rafael.webp";
 import ricardo from "../../assets/images/colaboradores/ricardo.webp";
-import veras from "../../assets/images/colaboradores/veras.webp";
+// import veras from "../../assets/images/colaboradores/veras.webp";
 import jenifer from "../../assets/images/colaboradores/jenifer.webp";
 import tom from "../../assets/images/colaboradores/tom.webp";
 import roberta from "../../assets/images/colaboradores/roberta.webp";
