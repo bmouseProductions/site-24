@@ -1,58 +1,56 @@
-
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import nalberthy from '../../assets/images/Home/SectionThree/nalberthy.webp'
-import ricardo from '../../assets/images/Home/SectionThree/ricardo.webp'
-import veras from '../../assets/images/Home/SectionThree/veras.webp'
+import nalberthy from "../../assets/images/Home/SectionThree/nalberthy.webp";
+import ricardo from "../../assets/images/Home/SectionThree/ricardo.webp";
+import veras from "../../assets/images/Home/SectionThree/veras.webp";
 
 export default function SliderHome() {
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        autoplay: true,
-        autoplaySpeed: 2000,
-    };
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
 
-    const colaboradores = [
+  const colaboradores = [
+    {
+      nome: "nalberthy",
+      setor: "Designer",
+      imagem: nalberthy,
+    },
+    {
+      nome: "ricardo",
+      setor: "Redator",
+      imagem: ricardo,
+    },
+    // {
+    //     nome: "Veras",
+    //     setor: "Redator",
+    //     imagem: veras
+    // },
+  ];
 
-        {
-            nome: "nalberthy",
-            setor: "Designer",
-            imagem: nalberthy
-        },
-        {
-            nome: "ricardo",
-            setor: "Redator",
-            imagem: ricardo
-        },
-        {
-            nome: "Veras",
-            setor: "Redator",
-            imagem: veras
-        },
-    ]
-
-    return (
-            <Slider {...settings} className="w-full md:max-w-[300px] lg:max-w-md ">
-                {colaboradores.map((colaborador, index) => (
-                    <div key={index} className=" !flex justify-center text-white">
-                        <img src={colaborador.imagem} className="md:max-h-[500px] rounded-[30px] " alt="" />
-                    </div>
-                ))}
-            
-            </Slider>
-    );
+  return (
+    <Slider {...settings} className="w-full md:max-w-[300px] lg:max-w-md ">
+      {colaboradores.map((colaborador, index) => (
+        <div key={index} className=" !flex justify-center text-white">
+          <img
+            src={colaborador.imagem}
+            className="md:max-h-[500px] rounded-[30px] "
+            alt=""
+          />
+        </div>
+      ))}
+    </Slider>
+  );
 }
-
-
-
 
 /* arrays que precisma estar na pagina onde o swiper vai ser chamado contendo o conteudo dos sliders
 
